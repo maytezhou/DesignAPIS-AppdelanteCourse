@@ -1,5 +1,7 @@
 const express = require('express');
 const bodyParser= require('body-parser');
+// id universal unico
+const uuidv4= require('uuid/v4');
 
 
 const app = express();
@@ -15,10 +17,25 @@ const productos = [
     
 ]
 app.route('/productos') // ruta que nos permite acceder a la coleccion entera de los productos
-.get((req,res)=>{
+.get((req,res)=>{// obtener recursos
     res.json(productos)
 })
 //ruta que nos permite agregar un producto
+// local
+.post((req,res)=>{ // crear nuevos recursos
+let nuevoProducto =req.body
+//input validation
+if(!nuevoProducto.moneda || !nuevoProducto.precio || !nuevoProducto.titulo){
+ //bad request tu request no es apropiado le falta algo - no cumple con los requisitos para ser un request válido
+    req.send('400').send("Tu producto deber especificar un titulo, precio y moneda")
+    return
+}
+nuevoProducto.id = uuidv4();
+productos.push(nuevoProducto);
+//res.json(nuevoProducto) // 200
+//created
+res.status(201).json(nuevoProducto)
+})
 
 
 
