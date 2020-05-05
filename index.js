@@ -5,6 +5,7 @@ const bodyParser= require('body-parser');
 //const uuidv4= require('uuid');
 import { v4 as uuidv4 } from 'uuid';
 const _=require('underscore');
+const productos = require('./database').productos
 
 
 const app = express();
@@ -12,15 +13,7 @@ const app = express();
 //para que el request.body exista
 app.use(bodyParser.json())
 
-const productos = [
-    {id: '1234', titulo: 'Macbook Pro13 Inches', 
-    precio: 1300 , moneda: 'USD'},
-    {id: '5678', titulo: 'Taza de Café', 
-    precio: 10 , moneda: 'USD'},
-    {id: '9101', titulo: 'Micrófono blue yeti', 
-    precio: 100, moneda:'USD'}
-    
-]
+
 app.route('/productos') // ruta que nos permite acceder a la coleccion entera de los productos
 .get((req,res)=>{// obtener recursos
     res.json(productos)
