@@ -1,15 +1,16 @@
 const express = require('express');
+const bodyParser= require('body-parser');
 const _ = require('underscore');
-import {
-    v4 as uuidv4
-} from 'uuid';
-const Joi = require('@hapi/joi');
+const { v4: uuidv4 } = require('uuid');
+uuidv4(); // ⇨ '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
+//const Joi = require('@hapi/joi');
+const Joi = require('joi');
 
 
 
 const productos = require('./../../../database').productos;
 // crear un router de express
-const productosRouter = express.Router() // no es una applicación de express (app), es un mini objeto que vamos a integrar con nuestra aplicacion express
+var productosRouter = express.Router() // no es una applicación de express (app), es un mini objeto que vamos a integrar con nuestra aplicacion express
 
 
 
@@ -36,12 +37,12 @@ const validarProducto = (req, res, next)=>{//  next te permite decidir, quiero i
 
 
 // productosRouter reemplaza a app
-productosRouter.get('/', (req, res) => { // obtener recursos
+productosRouter.get('/productos', (req, res) => { // obtener recursos
     res.json(productos)
 })
 //ruta que nos permite agregar un producto
 // local
-productosRouter.post('/',validarProducto, (req, res) => { // crear nuevos recursos
+productosRouter.post('/productos',validarProducto, (req, res) => { // crear nuevos recursos
     let nuevoProducto = req.body
     
     nuevoProducto.id = uuidv4();
@@ -57,7 +58,7 @@ productosRouter.post('/',validarProducto, (req, res) => { // crear nuevos recurs
 // en la ruta se colocara el id del prodcucto como parametro
  // todos los requests que vayan a este url 
 
-    productosRouter.get('/:id',(req, res) => { // para  obtener un prodcuto del array de productos
+    productosRouter.get('/productos/:id',(req, res) => { // para  obtener un prodcuto del array de productos
         //  req.params.id
         for (let producto of productos) {
             if (producto.id == req.params.id) {
@@ -73,7 +74,7 @@ productosRouter.post('/',validarProducto, (req, res) => { // crear nuevos recurs
 
 
     // Reemplaza completamente un recurso con un recurso nuevo
-    productosRouter.put('/:id',(req, res) => { //  para  modificar un producto del array de productos
+    productosRouter.put('/productos/:id',(req, res) => { //  para  modificar un producto del array de productos
         let id = req.params.id // id que el usuario especifica
         let reemplazoParaProducto = req.body
 
@@ -100,7 +101,7 @@ productosRouter.post('/',validarProducto, (req, res) => { // crear nuevos recurs
     })
 
 
-    productosRouter.delete('/:id',(req, res) => { // para eliminar un producto del array de productos
+    productosRouter.delete('/productos/:id',(req, res) => { // para eliminar un producto del array de productos
         let indiceABorrar = _.findIndex(productos, producto => producto.id == req.params.id)
         if (indiceABorrar === -1) {
             res.status(404).send(`Producto con id [
