@@ -9,9 +9,11 @@
   "author": "Mayte Souza",
   "license": "ISC",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
     "body-parser": "^1.19.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "joi": "^14.3.1",
     "underscore": "^1.10.2",
     "uuid": "^8.0.0"
   }

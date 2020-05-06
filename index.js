@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser= require('body-parser');
-import { v4 as uuidv4 } from 'uuid';
 const productosRouter = require('./api/recursos/productos/productos.routes')
 
 
