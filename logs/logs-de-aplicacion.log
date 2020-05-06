@@ -1,0 +1,4 @@
+info: 2020-05-06T17:37:15.815Z C:\Diseño-de-APIS-Con-NodeJs
+info: 2020-05-06T17:37:15.816Z Hola soy Winston {"compania":"appdelante"}
+error: 2020-05-06T17:37:15.816Z Algo  exploto
+warn: 2020-05-06T17:37:15.817Z Algo inesperado ocurrio
