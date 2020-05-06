@@ -1,20 +1,11 @@
-let uuidv4;_716‍.w("uuid",[["v4",["uuidv4"],function(v){uuidv4=v}]]);const express = require('express');
-const bodyParser= require('body-parser');
+const express = require('express')
+const _=require('underscore')
+const productos = require('./../../../database').productos
+// crear un router de express
+const productosRouter = express.Router() // no es una applicación de express (app), es un mini objeto que vamos a integrar con nuestra aplicacion express
 
-// id universal unico
-//const uuidv4= require('uuid');
-
-const _=require('underscore');
-const prodcutos = require('')
-
-
-const app = express();
-// servidor escuche en el puerto 3000
-//para que el request.body exista
-app.use(bodyParser.json())
-
-
-app.route('/productos') // ruta que nos permite acceder a la coleccion entera de los productos
+// productosRouter reemplaza a app
+productosRouter.route('/productos') // ruta que nos permite acceder a la coleccion entera de los productos
 .get((req,res)=>{// obtener recursos
     res.json(productos)
 })
@@ -39,7 +30,7 @@ res.status(201).json(nuevoProducto)
 
 // ruta que nos permite acceder a cada producto
 // en la ruta se colocara el id del prodcuto como parametro
-app.route('/productos/:id') // todos los requests que vayan a este url 
+productosRouter.route('/productos/:id') // todos los requests que vayan a este url 
 
 .get((req, res)=>{ // para  obtener un prodcutos del array de productos
   //  req.params.id
@@ -95,16 +86,4 @@ let borrado = productos.splice(indiceABorrar, 1)
 res.json(borrado)
 })
 
-
-
-
-
-
-// definir la primera ruta 
-// formato de rutas express
-app.get('/',(req,res)=>{
-res.send('API DE VENDETUSCOROTOS.COM')
-})
-app.listen('3000',()=>{
-console.log('escuchando en el puerto 3000')
-});
+module.exports = productosRouter
