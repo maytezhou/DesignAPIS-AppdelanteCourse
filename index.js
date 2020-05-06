@@ -8,7 +8,7 @@ const app = express();
 //para que el request.body exista
 app.use(bodyParser.json())
 // cuando llegue el request a /productos  que se lo envie al router de productos
-app.use('/',productosRouter)
+app.use('/productos',productosRouter)
 
 
 

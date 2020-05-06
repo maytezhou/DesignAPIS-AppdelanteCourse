@@ -20,15 +20,18 @@ const blueprintProducto = Joi.object().keys({
 })
 
 const validarProducto = (req, res, next)=>{//  next te permite decidir, quiero ir a la siguiente funcion o quiero frenar alli 
-    let resultado = Joi.validate(req.body, blueprintProducto)
-    console.log(resultado);
+    let resultado = Joi.validate(req.body, blueprintProducto,{ abortEarly :false, convert:false, 
+    })
+   
    if(resultado.error === null){
        next()     // llamar a next no significa return   en vez de else puede colocar un return aqui 
    }else{// si hay errores
-   
- res.status(400).send("... error en validar producto...")
+    let erroresDeValidacion = resultado.error.details.reduce((acumulador,error)=>{
+return acumulador + `[${error.message}]`
+    },"")
+    console.log(erroresDeValidacion);
+ res.status(400).send( `El producto en el body debe especificar titulo, precio y moneda. Errores en tu request: [${erroresDeValidacion}]`)
    }
-
 }
 
 
@@ -36,12 +39,12 @@ const validarProducto = (req, res, next)=>{//  next te permite decidir, quiero i
 
 
 // productosRouter reemplaza a app
-productosRouter.get('/productos', (req, res) => { // obtener recursos
+productosRouter.get('/', (req, res) => { // obtener recursos
     res.json(productos)
 })
 //ruta que nos permite agregar un producto
 // local
-productosRouter.post('/productos',validarProducto, (req, res) => { // crear nuevos recursos
+productosRouter.post('/',validarProducto, (req, res) => { // crear nuevos recursos
     let nuevoProducto = req.body
     
     nuevoProducto.id = uuidv4();
@@ -57,7 +60,7 @@ productosRouter.post('/productos',validarProducto, (req, res) => { // crear nuev
 // en la ruta se colocara el id del prodcucto como parametro
  // todos los requests que vayan a este url 
 
-    productosRouter.get('/productos/:id',(req, res) => { // para  obtener un prodcuto del array de productos
+    productosRouter.get('/:id',(req, res) => { // para  obtener un prodcuto del array de productos
         //  req.params.id
         for (let producto of productos) {
             if (producto.id == req.params.id) {
@@ -73,7 +76,7 @@ productosRouter.post('/productos',validarProducto, (req, res) => { // crear nuev
 
 
     // Reemplaza completamente un recurso con un recurso nuevo
-    productosRouter.put('/productos/:id',(req, res) => { //  para  modificar un producto del array de productos
+    productosRouter.put('/:id',(req, res) => { //  para  modificar un producto del array de productos
         let id = req.params.id // id que el usuario especifica
         let reemplazoParaProducto = req.body
 
@@ -100,7 +103,7 @@ productosRouter.post('/productos',validarProducto, (req, res) => { // crear nuev
     })
 
 
-    productosRouter.delete('/productos/:id',(req, res) => { // para eliminar un producto del array de productos
+    productosRouter.delete('/:id',(req, res) => { // para eliminar un producto del array de productos
         let indiceABorrar = _.findIndex(productos, producto => producto.id == req.params.id)
         if (indiceABorrar === -1) {
             res.status(404).send(`Producto con id [
