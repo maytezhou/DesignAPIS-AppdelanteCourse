@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser= require('body-parser');
 const productosRouter = require('./api/recursos/productos/productos.routes')
-
+console.log(productosRouter)
 
 const app = express();
 // servidor escuche en el puerto 3000

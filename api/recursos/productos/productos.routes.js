@@ -19,6 +19,18 @@ const blueprintProducto = Joi.object().keys({
     moneda: Joi.string().length(3).uppercase()
 })
 
+const validarProducto = (req, res, next)=>{//  next te permite decidir, quiero ir a la siguiente funcion o quiero frenar alli 
+    let resultado = Joi.validate(req.body, blueprintProducto)
+    console.log(resultado);
+   if(resultado.error === null){
+       next()     // llamar a next no significa return   en vez de else puede colocar un return aqui 
+   }else{// si hay errores
+   
+ res.status(400).send("... error en validar producto...")
+   }
+
+}
+
 
 
 
@@ -29,16 +41,9 @@ productosRouter.get('/', (req, res) => { // obtener recursos
 })
 //ruta que nos permite agregar un producto
 // local
-productosRouter.post('/', (req, res) => { // crear nuevos recursos
+productosRouter.post('/',validarProducto, (req, res) => { // crear nuevos recursos
     let nuevoProducto = req.body
-  
-  let resultado = Joi.validate(nuevoProducto, blueprintProducto)
-  if(resultado.error !== null){
-      res.status(404).send("....")
-  } 
-
-
-
+    
     nuevoProducto.id = uuidv4();
     productos.push(nuevoProducto);
     //res.json(nuevoProducto) // 200
@@ -49,7 +54,7 @@ productosRouter.post('/', (req, res) => { // crear nuevos recursos
 
 
 // ruta que nos permite acceder a cada producto
-// en la ruta se colocara el id del prodcuto como parametro
+// en la ruta se colocara el id del prodcucto como parametro
  // todos los requests que vayan a este url 
 
     productosRouter.get('/:id',(req, res) => { // para  obtener un prodcuto del array de productos
