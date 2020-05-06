@@ -2,7 +2,16 @@ const express = require('express');
 const bodyParser= require('body-parser');
 const productosRouter = require('./api/recursos/productos/productos.routes')
 const winston = require('winston');
-
+ /*
+ Niveles de Logs:
+ error:0
+ warn:1
+ info:2
+ verbose:3
+ debug:4
+ silly:5
+ 
+ */
 
 const logger = winston.createLogger({
 transports:[
