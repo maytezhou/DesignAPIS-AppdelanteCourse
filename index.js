@@ -1,6 +1,25 @@
 const express = require('express');
 const bodyParser= require('body-parser');
 const productosRouter = require('./api/recursos/productos/productos.routes')
+const winston = require('winston');
+
+
+const logger = winston.createLogger({
+transports:[
+    new winston.transports.Console({
+        level:'debug',
+        handleExceptions: true, 
+        format: winston.format.combine(winston.format.colorize(),
+        winston.format.simple())
+    })
+]
+})
+
+// Winston
+logger.info("Hola soy Winston")
+logger.error("Algo  exploto")
+logger.warn("Algo inesperado ocurrio")
+logger.debug("llamada de debugger")
 
 
 const app = express();
