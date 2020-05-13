@@ -10,6 +10,11 @@ const app = express();
 // servidor escuche en el puerto 3000
 //para que el request.body exista
 app.use(bodyParser.json())
+app.use(morgan('short',{
+    stream:{
+        write: message => logger.info (message.trim())
+    }
+}))
 // cuando llegue el request a /productos  que se lo envie al router de productos
 app.use('/productos',productosRouter)
 
