@@ -2,3 +2,17 @@ info: 2020-05-06T17:37:15.815Z C:\Diseño-de-APIS-Con-NodeJs
 info: 2020-05-06T17:37:15.816Z Hola soy Winston {"compania":"appdelante"}
 error: 2020-05-06T17:37:15.816Z Algo  exploto
 warn: 2020-05-06T17:37:15.817Z Algo inesperado ocurrio
+info: 2020-05-06T17:39:03.696Z C:\Diseño-de-APIS-Con-NodeJs
+info: 2020-05-06T17:39:03.698Z Hola soy Winston {"compania":"appdelante"}
+error: 2020-05-06T17:39:03.698Z Algo  exploto
+warn: 2020-05-06T17:39:03.699Z Algo inesperado ocurrio
+info: 2020-05-06T17:39:03.705Z escuchando en el puerto 3000
+info: 2020-05-06T17:39:19.468Z C:\Diseño-de-APIS-Con-NodeJs
+info: 2020-05-06T17:39:19.470Z Hola soy Winston {"compania":"appdelante"}
+error: 2020-05-06T17:39:19.474Z Algo  exploto
+warn: 2020-05-06T17:39:19.474Z Algo inesperado ocurrio
+info: 2020-05-06T17:39:19.484Z escuchando en el puerto 3000
+info: 2020-05-06T17:40:05.379Z escuchando en el puerto 3000
+info: 2020-05-06T17:40:24.779Z escuchando en el puerto 3000
+info: 2020-05-06T17:40:28.948Z escuchando en el puerto 3000
+info: 2020-05-06T17:40:53.670Z escuchando en el puerto 3000
