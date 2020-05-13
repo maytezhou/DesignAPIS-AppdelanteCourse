@@ -83,3 +83,72 @@ info: 2020-05-13T15:39:35.093Z escuchando en el puerto 3000
 info: 2020-05-13T15:40:00.624Z ::1 - GET /productos HTTP/1.1 200 216 - 4.861 ms
 info: 2020-05-13T15:40:02.992Z ::1 - POST /productos/ HTTP/1.1 201 101 - 26.836 ms
 info: 2020-05-13T15:40:06.192Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 1.750 ms
+info: 2020-05-13T15:46:04.517Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:06.035Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:11.396Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:13.628Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:30.036Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:33.289Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:38.767Z escuchando en el puerto 3000
+info: 2020-05-13T15:46:41.804Z escuchando en el puerto 3000
+info: 2020-05-13T15:49:29.006Z escuchando en el puerto 3000
+info: 2020-05-13T15:49:34.912Z escuchando en el puerto 3000
+info: 2020-05-13T15:49:36.604Z escuchando en el puerto 3000
+info: 2020-05-13T15:49:50.721Z escuchando en el puerto 3000
+info: 2020-05-13T15:49:56.048Z escuchando en el puerto 3000
+info: 2020-05-13T15:49:57.441Z escuchando en el puerto 3000
+info: 2020-05-13T15:50:35.019Z escuchando en el puerto 3000
+info: 2020-05-13T15:50:49.386Z escuchando en el puerto 3000
+info: 2020-05-13T15:50:59.438Z escuchando en el puerto 3000
+info: 2020-05-13T15:51:17.995Z escuchando en el puerto 3000
+info: 2020-05-13T15:51:19.171Z escuchando en el puerto 3000
+info: 2020-05-13T15:51:22.444Z escuchando en el puerto 3000
+info: 2020-05-13T15:51:25.205Z escuchando en el puerto 3000
+info: 2020-05-13T15:51:30.615Z escuchando en el puerto 3000
+info: 2020-05-13T15:52:19.296Z escuchando en el puerto 3000
+info: 2020-05-13T15:52:31.634Z escuchando en el puerto 3000
+info: 2020-05-13T15:52:33.209Z escuchando en el puerto 3000
+info: 2020-05-13T15:52:34.804Z escuchando en el puerto 3000
+info: 2020-05-13T15:55:54.089Z escuchando en el puerto 3000
+info: 2020-05-13T15:55:55.573Z escuchando en el puerto 3000
+info: 2020-05-13T15:56:03.965Z escuchando en el puerto 3000
+info: 2020-05-13T15:56:37.042Z escuchando en el puerto 3000
+info: 2020-05-13T15:56:39.973Z escuchando en el puerto 3000
+info: 2020-05-13T15:56:41.618Z escuchando en el puerto 3000
+info: 2020-05-13T15:57:39.769Z escuchando en el puerto 3000
+info: 2020-05-13T15:58:00.593Z escuchando en el puerto 3000
+info: 2020-05-13T15:58:31.396Z escuchando en el puerto 3000
+info: 2020-05-13T15:58:42.435Z escuchando en el puerto 3000
+info: 2020-05-13T15:58:47.219Z escuchando en el puerto 3000
+info: 2020-05-13T16:00:26.780Z escuchando en el puerto 3000
+info: 2020-05-13T16:00:28.548Z escuchando en el puerto 3000
+info: 2020-05-13T16:00:35.793Z escuchando en el puerto 3000
+info: 2020-05-13T16:00:40.195Z escuchando en el puerto 3000
+info: 2020-05-13T16:00:45.752Z escuchando en el puerto 3000
+info: 2020-05-13T16:00:50.599Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:01.636Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:11.543Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:17.805Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:20.670Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:27.907Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:37.292Z escuchando en el puerto 3000
+info: 2020-05-13T16:01:44.117Z escuchando en el puerto 3000
+info: 2020-05-13T16:19:34.598Z escuchando en el puerto 3000
+info: 2020-05-13T16:35:25.825Z ::1 - GET /productos HTTP/1.1 200 216 - 5.571 ms
+info: 2020-05-13T16:35:32.973Z Producto agregado a la colección de productos {"titulo":"Lampara Fiona","precio":250.11,"moneda":"CAD","id":"59bb585b-25a6-4d30-b49a-b1455bf6eca4"}
+info: 2020-05-13T16:35:32.975Z ::1 - POST /productos/ HTTP/1.1 201 101 - 15.775 ms
+info: 2020-05-13T16:35:48.048Z Producto con id [5678] reemplazado con nuevo producto {"titulo":"Zapatillas Nike","moneda":"USD","precio":10,"id":"5678"}
+info: 2020-05-13T16:35:48.049Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 2.003 ms
+info: 2020-05-13T16:35:52.640Z ::1 - DELETE /productos/1234 HTTP/1.1 200 76 - 0.589 ms
+warn: 2020-05-13T16:36:10.345Z Producto con id [12341234] no existe. Nada que borrar
+info: 2020-05-13T16:36:10.347Z ::1 - DELETE /productos/12341234 HTTP/1.1 404 57 - 1.204 ms
+info: 2020-05-13T20:06:11.865Z escuchando en el puerto 3000
+info: 2020-05-13T20:06:15.181Z escuchando en el puerto 3000
+info: 2020-05-13T20:06:18.159Z escuchando en el puerto 3000
+info: 2020-05-13T20:06:20.464Z escuchando en el puerto 3000
+info: 2020-05-13T20:09:45.168Z escuchando en el puerto 3000
+info: 2020-05-13T20:09:46.268Z escuchando en el puerto 3000
+info: 2020-05-13T20:10:06.249Z escuchando en el puerto 3000
+info: 2020-05-13T20:10:14.129Z escuchando en el puerto 3000
+info: 2020-05-13T20:10:17.014Z escuchando en el puerto 3000
+info: 2020-05-13T20:11:01.271Z escuchando en el puerto 3000

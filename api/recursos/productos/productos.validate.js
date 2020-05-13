@@ -1,4 +1,5 @@
 const Joi = require('joi');
+const log = require('./../../../utils/logger');
 // validación de un producto
 
 const blueprintProducto = Joi.object().keys({
@@ -19,7 +20,8 @@ module.exports = (req, res, next) => { //  next te permite decidir, quiero ir a 
         let erroresDeValidacion = resultado.error.details.reduce((acumulador, error) => {
             return acumulador + `[${error.message}]`
         }, "")
-        console.log(erroresDeValidacion);
+       // console.log(erroresDeValidacion);
+       log.warn('El siguiente producto no pasó la validación: ', req.body, erroresDeValidacion)
         res.status(400).send(`El producto en el body debe especificar titulo, precio y moneda. Errores en tu request: [${erroresDeValidacion}]`)
     }
 }

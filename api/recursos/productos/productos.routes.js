@@ -3,6 +3,7 @@ const _ = require('underscore');
 const { v4: uuidv4 } = require('uuid');
 const validarProducto = require('./productos.validate')
 //const Joi = require('@hapi/joi');
+const log = require('./../../../utils/logger');
 
 
 const productos = require('./../../../database').productos;
@@ -22,6 +23,7 @@ productosRouter.post('/', validarProducto, (req, res) => { // crear nuevos recur
 
     nuevoProducto.id = uuidv4();
     productos.push(nuevoProducto);
+    log.info("Producto agregado a la colección de productos", nuevoProducto)
     //res.json(nuevoProducto) // 200
     //created
     res.status(201).json(nuevoProducto)
@@ -57,6 +59,7 @@ productosRouter.put('/:id', validarProducto, (req, res) => { //  para  modificar
     if (indice !== -1) { // si el producto existe
         reemplazoParaProducto.id = id
         productos[indice] = reemplazoParaProducto
+        log.info(`Producto con id [${id}] reemplazado con nuevo producto`, reemplazoParaProducto);
         res.status(200).json(reemplazoParaProducto)
     } else {
         res.status(404).send(`El Producto con id [
@@ -70,6 +73,7 @@ productosRouter.put('/:id', validarProducto, (req, res) => { //  para  modificar
 productosRouter.delete('/:id', (req, res) => { // para eliminar un producto del array de productos
     let indiceABorrar = _.findIndex(productos, producto => producto.id == req.params.id)
     if (indiceABorrar === -1) {
+        log.warn(`Producto con id [${req.params.id}] no existe. Nada que borrar`);
         res.status(404).send(`Producto con id [
     ${req.params.id}] no existe.Nada que borrar`)
         return

@@ -5,6 +5,15 @@ const morgan = require('morgan')
 const logger = require('./utils/logger')
 
 
+function autenticarUsuario (req,res, next){
+if(baseDeDatosUsuario(req.body.username)){
+ //...  // verificar contraseña
+next ()
+}else{
+    res.send(404)
+}
+}
+
 
 const app = express();
 // servidor escuche en el puerto 3000
