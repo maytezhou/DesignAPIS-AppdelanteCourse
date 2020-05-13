@@ -3,16 +3,19 @@ const bodyParser= require('body-parser');
 const productosRouter = require('./api/recursos/productos/productos.routes')
 const morgan = require('morgan')
 const logger = require('./utils/logger')
+const passport = require('passport')
 
-
-function autenticarUsuario (req,res, next){
-if(baseDeDatosUsuario(req.body.username)){
- //...  // verificar contraseña
-next ()
+// autenticación básica
+const BasicStrategy = require('passport-http').BasicStrategy
+passport.use(new BasicStrategy(
+    (username, password, done)=>{
+if(username.valueOf() === 'daniel' && password.valueOf() === 'appdelante123'){
+    return done(null,true)
 }else{
-    res.send(404)
+    return done(null,false) // null es para lanzar algun error 
 }
-}
+    }
+))
 
 
 const app = express();
@@ -24,6 +27,11 @@ app.use(morgan('short',{
         write: message => logger.info (message.trim())
     }
 }))
+
+
+
+app.use(passport.initialize())
+
 // cuando llegue el request a /productos  que se lo envie al router de productos
 app.use('/productos',productosRouter)
 
@@ -31,7 +39,7 @@ app.use('/productos',productosRouter)
 
 // definir la primera ruta 
 // formato de rutas express
-app.get('/',(req,res)=>{
+app.get('/',passport.authenticate('basic',{ session:false}),(req,res)=>{
 res.send('Api de vendetuscorotos.com')
 })
 app.listen('3000',()=>{
