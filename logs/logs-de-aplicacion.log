@@ -717,3 +717,6 @@ info: 2020-05-18T15:21:15.731Z escuchando en el puerto 3000
 info: 2020-05-18T15:21:28.289Z ::1 - GET /usuarios HTTP/1.1 200 2 - 3.778 ms
 info: 2020-05-18T15:21:31.437Z ::1 - POST /usuarios HTTP/1.1 500 158 - 28.841 ms
 info: 2020-05-18T15:24:28.925Z ::1 - POST /usuarios HTTP/1.1 500 158 - 1.276 ms
+info: 2020-05-18T15:24:38.474Z escuchando en el puerto 3000
+info: 2020-05-18T15:24:40.145Z ::1 - POST /usuarios HTTP/1.1 500 158 - 14.319 ms
+info: 2020-05-18T15:24:42.486Z ::1 - GET /usuarios HTTP/1.1 200 2 - 1.525 ms
