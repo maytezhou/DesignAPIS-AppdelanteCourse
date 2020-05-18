@@ -1,4 +1,5 @@
 const Joi = require('joi');
+//const Joi = require('@hapi/joi');
 const log = require('./../../../utils/logger');
 // validación de un producto
 

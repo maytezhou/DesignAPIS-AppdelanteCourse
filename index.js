@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser= require('body-parser');
 const productosRouter = require('./api/recursos/productos/productos.routes')
 const morgan = require('morgan')
+const usuariosRouter = require('./api/recursos/usuarios/usuarios.routes')
 const logger = require('./utils/logger')
 const passport = require('passport')
 
@@ -34,6 +35,7 @@ app.use(passport.initialize())
 
 // cuando llegue el request a /productos  que se lo envie al router de productos
 app.use('/productos',productosRouter)
+app.use('/usuarios', usuariosRouter)
 
 
 

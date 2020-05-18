@@ -153,3 +153,567 @@ info: 2020-05-13T20:10:14.129Z escuchando en el puerto 3000
 info: 2020-05-13T20:10:17.014Z escuchando en el puerto 3000
 info: 2020-05-13T20:11:01.271Z escuchando en el puerto 3000
 info: 2020-05-13T20:11:09.107Z escuchando en el puerto 3000
+info: 2020-05-13T21:59:14.569Z escuchando en el puerto 3000
+info: 2020-05-13T21:59:33.623Z ::ffff:127.0.0.1 - GET /productos/ HTTP/1.1 200 216 - 2.956 ms
+info: 2020-05-13T21:59:51.263Z ::ffff:127.0.0.1 - GET / HTTP/1.1 401 - - 2.186 ms
+info: 2020-05-13T22:00:16.949Z ::ffff:127.0.0.1 daniel GET / HTTP/1.1 200 26 - 3.587 ms
+info: 2020-05-13T22:00:16.982Z ::ffff:127.0.0.1 daniel GET /favicon.ico HTTP/1.1 404 150 - 0.984 ms
+info: 2020-05-13T22:01:00.483Z ::ffff:127.0.0.1 daniel GET / HTTP/1.1 304 - - 0.552 ms
+info: 2020-05-13T22:01:00.499Z ::ffff:127.0.0.1 daniel GET /favicon.ico HTTP/1.1 404 150 - 0.187 ms
+info: 2020-05-13T22:01:08.167Z ::ffff:127.0.0.1 daniel GET /productos/ HTTP/1.1 304 - - 0.269 ms
+info: 2020-05-13T22:01:12.309Z ::ffff:127.0.0.1 daniel GET / HTTP/1.1 304 - - 0.461 ms
+info: 2020-05-13T22:01:15.377Z ::ffff:127.0.0.1 daniel GET / HTTP/1.1 304 - - 0.312 ms
+info: 2020-05-13T22:07:21.856Z escuchando en el puerto 3000
+info: 2020-05-13T22:07:23.529Z escuchando en el puerto 3000
+error: 2020-05-13T22:07:29.434Z uncaughtException: usuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\database.js:1
+ReferenceError: usuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\database.js:14:4)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\database.js:1\nReferenceError: usuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\database.js:14:4)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Wed May 13 2020 17:07:29 GMT-0500 (GMT-05:00)","process":{"pid":18016,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54595584,"heapTotal":33177600,"heapUsed":15201464,"external":3976696}},"os":{"loadavg":[0,0,0],"uptime":500446},"trace":[{"column":4,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\database.js","function":null,"line":14,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-05-13T22:07:31.046Z escuchando en el puerto 3000
+info: 2020-05-13T22:08:42.020Z escuchando en el puerto 3000
+info: 2020-05-13T22:09:01.634Z escuchando en el puerto 3000
+info: 2020-05-13T22:09:34.211Z escuchando en el puerto 3000
+info: 2020-05-13T22:09:35.300Z escuchando en el puerto 3000
+info: 2020-05-13T22:09:39.716Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:06.641Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:08.999Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:12.356Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:19.813Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:28.235Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:33.708Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:38.228Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:43.136Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:50.732Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:52.297Z escuchando en el puerto 3000
+info: 2020-05-13T22:10:59.584Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:03.005Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:05.314Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:06.782Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:08.101Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:10.365Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:11.655Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:19.075Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:24.740Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:27.471Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:41.410Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:46.552Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:50.165Z escuchando en el puerto 3000
+info: 2020-05-13T22:11:59.349Z escuchando en el puerto 3000
+info: 2020-05-13T22:12:04.834Z escuchando en el puerto 3000
+info: 2020-05-13T22:12:06.090Z escuchando en el puerto 3000
+info: 2020-05-13T22:12:10.558Z escuchando en el puerto 3000
+info: 2020-05-13T22:12:57.752Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:03.143Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:19.038Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:24.579Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:28.003Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:30.826Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:33.904Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:40.545Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:56.288Z escuchando en el puerto 3000
+info: 2020-05-13T22:13:58.464Z escuchando en el puerto 3000
+info: 2020-05-13T22:14:03.271Z escuchando en el puerto 3000
+info: 2020-05-13T22:14:09.612Z escuchando en el puerto 3000
+info: 2020-05-13T22:14:14.833Z escuchando en el puerto 3000
+info: 2020-05-13T22:14:46.648Z escuchando en el puerto 3000
+info: 2020-05-13T22:14:51.296Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:01.270Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:03.333Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:06.750Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:20.546Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:23.196Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:26.429Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:30.910Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:36.865Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:48.670Z escuchando en el puerto 3000
+info: 2020-05-13T22:15:52.879Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:01.361Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:09.766Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:12.745Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:16.834Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:19.144Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:22.107Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:23.481Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:30.116Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:40.643Z escuchando en el puerto 3000
+info: 2020-05-13T22:16:50.929Z escuchando en el puerto 3000
+info: 2020-05-13T22:17:00.903Z escuchando en el puerto 3000
+info: 2020-05-13T22:17:13.919Z escuchando en el puerto 3000
+info: 2020-05-13T22:17:34.507Z escuchando en el puerto 3000
+info: 2020-05-13T22:17:43.908Z escuchando en el puerto 3000
+info: 2020-05-13T22:18:00.218Z escuchando en el puerto 3000
+info: 2020-05-13T22:18:25.102Z escuchando en el puerto 3000
+info: 2020-05-13T22:18:56.214Z escuchando en el puerto 3000
+info: 2020-05-13T22:19:09.361Z escuchando en el puerto 3000
+info: 2020-05-13T22:19:25.369Z escuchando en el puerto 3000
+info: 2020-05-13T22:19:28.559Z escuchando en el puerto 3000
+info: 2020-05-13T22:19:30.528Z escuchando en el puerto 3000
+info: 2020-05-13T22:23:08.863Z escuchando en el puerto 3000
+info: 2020-05-13T22:23:21.204Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:00.041Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:03.417Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:08.464Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:10.593Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:16.113Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:19.522Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:24.144Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:25.592Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:35.539Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:36.520Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:47.550Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:55.855Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:57.101Z escuchando en el puerto 3000
+info: 2020-05-13T22:24:58.692Z escuchando en el puerto 3000
+info: 2020-05-13T22:25:09.458Z escuchando en el puerto 3000
+info: 2020-05-13T22:25:13.028Z escuchando en el puerto 3000
+info: 2020-05-13T22:25:22.104Z escuchando en el puerto 3000
+info: 2020-05-13T22:25:54.177Z escuchando en el puerto 3000
+info: 2020-05-13T22:25:58.562Z escuchando en el puerto 3000
+info: 2020-05-13T22:26:23.403Z escuchando en el puerto 3000
+info: 2020-05-13T22:26:29.010Z escuchando en el puerto 3000
+info: 2020-05-13T22:26:48.023Z escuchando en el puerto 3000
+info: 2020-05-13T22:26:50.298Z escuchando en el puerto 3000
+info: 2020-05-13T22:26:54.921Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:08.104Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:14.690Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:22.152Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:23.803Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:26.572Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:27.686Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:29.990Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:33.361Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:34.889Z escuchando en el puerto 3000
+info: 2020-05-13T22:27:51.381Z escuchando en el puerto 3000
+info: 2020-05-13T22:28:06.690Z escuchando en el puerto 3000
+info: 2020-05-13T22:28:08.215Z escuchando en el puerto 3000
+info: 2020-05-13T22:28:09.351Z escuchando en el puerto 3000
+info: 2020-05-13T22:28:11.286Z escuchando en el puerto 3000
+info: 2020-05-13T22:28:52.590Z escuchando en el puerto 3000
+info: 2020-05-13T22:29:40.775Z escuchando en el puerto 3000
+info: 2020-05-13T22:29:42.176Z escuchando en el puerto 3000
+info: 2020-05-13T22:29:51.598Z escuchando en el puerto 3000
+info: 2020-05-13T22:29:55.121Z escuchando en el puerto 3000
+info: 2020-05-13T22:29:58.123Z escuchando en el puerto 3000
+info: 2020-05-13T22:30:03.313Z escuchando en el puerto 3000
+info: 2020-05-13T22:30:05.319Z escuchando en el puerto 3000
+info: 2020-05-13T22:30:16.310Z escuchando en el puerto 3000
+info: 2020-05-13T22:30:19.136Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:30.802Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:37.223Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:42.391Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:46.479Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:50.326Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:51.813Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:54.151Z escuchando en el puerto 3000
+info: 2020-05-13T22:32:58.436Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:01.879Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:04.100Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:22.761Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:25.781Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:42.285Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:51.408Z escuchando en el puerto 3000
+info: 2020-05-13T22:33:57.950Z escuchando en el puerto 3000
+info: 2020-05-13T22:34:02.335Z escuchando en el puerto 3000
+info: 2020-05-13T22:34:06.524Z escuchando en el puerto 3000
+info: 2020-05-13T22:34:10.103Z escuchando en el puerto 3000
+info: 2020-05-13T22:34:15.425Z escuchando en el puerto 3000
+info: 2020-05-13T22:34:26.080Z escuchando en el puerto 3000
+info: 2020-05-13T22:34:30.434Z escuchando en el puerto 3000
+info: 2020-05-13T22:35:39.515Z escuchando en el puerto 3000
+info: 2020-05-13T22:35:47.763Z escuchando en el puerto 3000
+info: 2020-05-13T22:35:58.874Z escuchando en el puerto 3000
+info: 2020-05-13T22:36:09.325Z escuchando en el puerto 3000
+info: 2020-05-13T22:36:16.584Z escuchando en el puerto 3000
+info: 2020-05-13T22:37:01.014Z escuchando en el puerto 3000
+info: 2020-05-13T22:37:05.359Z escuchando en el puerto 3000
+info: 2020-05-13T22:37:25.213Z escuchando en el puerto 3000
+info: 2020-05-13T22:37:32.347Z escuchando en el puerto 3000
+info: 2020-05-13T22:37:52.243Z escuchando en el puerto 3000
+info: 2020-05-13T22:38:12.024Z escuchando en el puerto 3000
+info: 2020-05-13T22:38:15.399Z escuchando en el puerto 3000
+info: 2020-05-13T22:38:24.724Z escuchando en el puerto 3000
+info: 2020-05-13T22:38:29.459Z escuchando en el puerto 3000
+info: 2020-05-13T22:39:03.600Z escuchando en el puerto 3000
+info: 2020-05-13T22:39:15.658Z escuchando en el puerto 3000
+info: 2020-05-13T22:39:21.746Z escuchando en el puerto 3000
+info: 2020-05-13T22:39:34.776Z escuchando en el puerto 3000
+info: 2020-05-13T22:39:49.250Z escuchando en el puerto 3000
+info: 2020-05-13T22:39:50.771Z escuchando en el puerto 3000
+info: 2020-05-13T22:40:13.232Z escuchando en el puerto 3000
+info: 2020-05-13T22:41:52.219Z escuchando en el puerto 3000
+info: 2020-05-15T16:56:23.030Z escuchando en el puerto 3000
+info: 2020-05-15T17:09:34.360Z escuchando en el puerto 3000
+info: 2020-05-15T17:17:38.150Z escuchando en el puerto 3000
+info: 2020-05-15T17:18:14.421Z escuchando en el puerto 3000
+info: 2020-05-15T17:18:15.341Z escuchando en el puerto 3000
+info: 2020-05-15T17:18:25.512Z escuchando en el puerto 3000
+info: 2020-05-15T17:18:27.118Z escuchando en el puerto 3000
+error: 2020-05-15T19:45:45.693Z uncaughtException: The argument 'request' must be a non-empty string. Received ''
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error [ERR_INVALID_ARG_VALUE]: The argument 'request' must be a non-empty string. Received ''
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError [ERR_INVALID_ARG_VALUE]: The argument 'request' must be a non-empty string. Received ''\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:45:45 GMT-0500 (GMT-05:00)","process":{"pid":14476,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53669888,"heapTotal":33439744,"heapUsed":16908288,"external":4137340}},"os":{"loadavg":[0,0,0],"uptime":24537},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:45:48.094Z uncaughtException: Cannot find module './a'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './a'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './a'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:45:48 GMT-0500 (GMT-05:00)","process":{"pid":13316,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54988800,"heapTotal":33177600,"heapUsed":16031328,"external":4063954}},"os":{"loadavg":[0,0,0],"uptime":24539},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:45:50.230Z uncaughtException: Cannot find module './api/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:45:50 GMT-0500 (GMT-05:00)","process":{"pid":3852,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":52797440,"heapTotal":33177600,"heapUsed":17487288,"external":4197654}},"os":{"loadavg":[0,0,0],"uptime":24541},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:45:52.288Z uncaughtException: Cannot find module './api/recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:45:52 GMT-0500 (GMT-05:00)","process":{"pid":11268,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":52862976,"heapTotal":32915456,"heapUsed":17521952,"external":4197662}},"os":{"loadavg":[0,0,0],"uptime":24543},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:45:54.787Z uncaughtException: Cannot find module './api/recursos/usuarios'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/usuarios'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/usuarios'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:45:54 GMT-0500 (GMT-05:00)","process":{"pid":12636,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":52920320,"heapTotal":32915456,"heapUsed":17478704,"external":4197670}},"os":{"loadavg":[0,0,0],"uptime":24546},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:46:09.394Z uncaughtException: Cannot find module './api/recursos/usuarios.'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/usuarios.'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/usuarios.'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:46:09 GMT-0500 (GMT-05:00)","process":{"pid":14564,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53739520,"heapTotal":33439744,"heapUsed":17026040,"external":4158700}},"os":{"loadavg":[0,0,0],"uptime":24560},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:46:11.850Z uncaughtException: Cannot find module './api/recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:46:11 GMT-0500 (GMT-05:00)","process":{"pid":8540,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53665792,"heapTotal":33177600,"heapUsed":17027304,"external":4158692}},"os":{"loadavg":[0,0,0],"uptime":24563},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:46:13.344Z uncaughtException: Cannot find module './api/recursos/u'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/u'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/u'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:46:13 GMT-0500 (GMT-05:00)","process":{"pid":2076,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":52989952,"heapTotal":33439744,"heapUsed":17539552,"external":4202606}},"os":{"loadavg":[0,0,0],"uptime":24564},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:46:18.521Z uncaughtException: Cannot find module './api/recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:46:18 GMT-0500 (GMT-05:00)","process":{"pid":12424,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54095872,"heapTotal":33439744,"heapUsed":16710016,"external":4109854}},"os":{"loadavg":[0,0,0],"uptime":24570},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:46:20.538Z uncaughtException: Cannot find module './api/recursos/usuarios/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\index.js:1
+Error: Cannot find module './api/recursos/usuarios/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\index.js:5:24)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js:1\nError: Cannot find module './api/recursos/usuarios/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\index.js:5:24)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:46:20 GMT-0500 (GMT-05:00)","process":{"pid":11972,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55152640,"heapTotal":33439744,"heapUsed":15998512,"external":4066637}},"os":{"loadavg":[0,0,0],"uptime":24572},"trace":[{"column":24,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\index.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:46:21.696Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:46:21 GMT-0500 (GMT-05:00)","process":{"pid":12960,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53055488,"heapTotal":33177600,"heapUsed":17715704,"external":4216054}},"os":{"loadavg":[0,0,0],"uptime":24573},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:46:51.310Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:46:51 GMT-0500 (GMT-05:00)","process":{"pid":200,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55083008,"heapTotal":32915456,"heapUsed":16086384,"external":4078784}},"os":{"loadavg":[0,0,0],"uptime":24602},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:46:52.799Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:46:52 GMT-0500 (GMT-05:00)","process":{"pid":15068,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55046144,"heapTotal":33439744,"heapUsed":16206280,"external":4087642}},"os":{"loadavg":[0,0,0],"uptime":24604},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:46:56.135Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:46:56 GMT-0500 (GMT-05:00)","process":{"pid":3312,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":52973568,"heapTotal":33177600,"heapUsed":17676592,"external":4221366}},"os":{"loadavg":[0,0,0],"uptime":24607},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:46:58.268Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:46:58 GMT-0500 (GMT-05:00)","process":{"pid":12352,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53571584,"heapTotal":33439744,"heapUsed":16981392,"external":4134678}},"os":{"loadavg":[0,0,0],"uptime":24609},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:46:59.665Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:46:59 GMT-0500 (GMT-05:00)","process":{"pid":8136,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54996992,"heapTotal":32915456,"heapUsed":15977576,"external":4078824}},"os":{"loadavg":[0,0,0],"uptime":24611},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:48:22.776Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:48:22 GMT-0500 (GMT-05:00)","process":{"pid":12392,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53493760,"heapTotal":33439744,"heapUsed":17233968,"external":4193292}},"os":{"loadavg":[0,0,0],"uptime":24694},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:49:22.760Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:49:22 GMT-0500 (GMT-05:00)","process":{"pid":14924,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53092352,"heapTotal":33177600,"heapUsed":17681976,"external":4223550}},"os":{"loadavg":[0,0,0],"uptime":24754},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:49:57.056Z uncaughtException: Join is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Join is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Join is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:49:57 GMT-0500 (GMT-05:00)","process":{"pid":4340,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53358592,"heapTotal":32915456,"heapUsed":17368568,"external":4209865}},"os":{"loadavg":[0,0,0],"uptime":24788},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:52:09.148Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4
+const blueprintUsuario = .object().keys({
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4\nconst blueprintUsuario = .object().keys({\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:52:09 GMT-0500 (GMT-05:00)","process":{"pid":14612,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53022720,"heapTotal":33439744,"heapUsed":17670376,"external":4223430}},"os":{"loadavg":[0,0,0],"uptime":24920},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:52:11.057Z uncaughtException: J is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: J is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:4:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: J is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:4:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Fri May 15 2020 14:52:11 GMT-0500 (GMT-05:00)","process":{"pid":11884,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53538816,"heapTotal":33177600,"heapUsed":17204080,"external":4181100}},"os":{"loadavg":[0,0,0],"uptime":24922},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-05-15T19:52:12.493Z uncaughtException: Cannot find module 'bcrypt'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module 'bcrypt'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module 'bcrypt'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:52:12 GMT-0500 (GMT-05:00)","process":{"pid":7232,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55312384,"heapTotal":32915456,"heapUsed":16032040,"external":4082432}},"os":{"loadavg":[0,0,0],"uptime":24924},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T19:52:25.027Z uncaughtException: Cannot find module 'bcrypt'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module 'bcrypt'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module 'bcrypt'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 14:52:25 GMT-0500 (GMT-05:00)","process":{"pid":12456,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54677504,"heapTotal":33177600,"heapUsed":16364752,"external":4101010}},"os":{"loadavg":[0,0,0],"uptime":24936},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-05-15T21:48:47.162Z uncaughtException: Cannot find module 'bcrypt'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module 'bcrypt'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module 'bcrypt'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Fri May 15 2020 16:48:46 GMT-0500 (GMT-05:00)","process":{"pid":7060,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53682176,"heapTotal":32915456,"heapUsed":17500632,"external":4226518}},"os":{"loadavg":[0,0,0],"uptime":31918},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+info: 2020-05-15T21:51:05.341Z escuchando en el puerto 3000
+info: 2020-05-15T21:52:47.293Z ::1 - GET /productos HTTP/1.1 200 216 - 7.637 ms
+info: 2020-05-15T21:52:58.039Z Producto agregado a la colección de productos {"titulo":"Lampara Fiona","precio":250.11,"moneda":"CAD","id":"ef109a2d-82c8-4ed2-b8c9-395e54e0c131"}
+info: 2020-05-15T21:52:58.097Z ::1 - POST /productos/ HTTP/1.1 201 101 - 32.916 ms
+info: 2020-05-15T21:53:01.690Z ::1 - GET /productos HTTP/1.1 200 318 - 0.374 ms
+info: 2020-05-15T21:53:05.531Z Producto con id [5678] reemplazado con nuevo producto {"titulo":"Zapatillas Nike","moneda":"USD","precio":10,"id":"5678"}
+info: 2020-05-15T21:53:05.532Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 2.678 ms
+info: 2020-05-15T21:53:13.591Z ::1 - GET /productos HTTP/1.1 200 320 - 0.658 ms
+warn: 2020-05-15T21:53:16.939Z Producto con id [12341234] no existe. Nada que borrar
+info: 2020-05-15T21:53:16.941Z ::1 - DELETE /productos/12341234 HTTP/1.1 404 57 - 1.303 ms
+info: 2020-05-15T21:53:22.567Z ::1 - DELETE /productos/1234 HTTP/1.1 200 76 - 0.272 ms
+info: 2020-05-15T21:53:26.802Z ::1 - GET /productos HTTP/1.1 200 245 - 0.224 ms
+info: 2020-05-15T21:53:39.998Z ::1 - GET /usuarios HTTP/1.1 200 2 - 0.685 ms
+info: 2020-05-15T21:56:32.111Z ::1 - GET /usuarios HTTP/1.1 200 2 - 2.485 ms
+info: 2020-05-15T21:56:49.558Z ::1 - POST /usuarios HTTP/1.1 500 158 - 223.741 ms
+info: 2020-05-15T21:57:55.856Z ::1 - POST /usuarios HTTP/1.1 500 158 - 0.528 ms
+info: 2020-05-15T21:57:57.039Z ::1 - POST /usuarios HTTP/1.1 500 158 - 0.840 ms
+info: 2020-05-16T19:31:51.421Z escuchando en el puerto 3000
+info: 2020-05-16T19:35:09.571Z ::1 - POST /usuarios HTTP/1.1 500 158 - 225.840 ms
+info: 2020-05-16T19:35:53.356Z ::1 - GET /usuarios HTTP/1.1 200 2 - 2.044 ms
+info: 2020-05-16T19:37:08.931Z ::1 - POST /usuarios HTTP/1.1 500 158 - 1.888 ms
+info: 2020-05-16T19:40:18.489Z escuchando en el puerto 3000
+info: 2020-05-16T19:40:34.328Z ::1 - POST /usuarios HTTP/1.1 500 158 - 28.728 ms
+info: 2020-05-16T19:41:01.145Z ::1 - GET /usuarios HTTP/1.1 200 2 - 1.483 ms
+info: 2020-05-16T19:43:03.901Z Usuario fallo la validación {"0":{"message":"\"username\" is required","path":["username"],"type":"any.required","context":{"key":"username","label":"username"}},"1":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"key":"password","label":"password"}},"2":{"message":"\"email\" is required","path":["email"],"type":"any.required","context":{"key":"email","label":"email"}}}
+info: 2020-05-16T19:43:03.923Z ::1 - POST /usuarios HTTP/1.1 400 218 - 5.673 ms
+info: 2020-05-16T19:44:33.045Z Usuario fallo la validación {"0":{"message":"\"username\" is required","path":["username"],"type":"any.required","context":{"key":"username","label":"username"}},"1":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"key":"password","label":"password"}},"2":{"message":"\"email\" is required","path":["email"],"type":"any.required","context":{"key":"email","label":"email"}}}
+info: 2020-05-16T19:44:33.049Z ::1 - POST /usuarios HTTP/1.1 400 218 - 4.338 ms
+info: 2020-05-16T19:48:39.053Z Usuario fallo la validación {"0":{"message":"\"username\" is required","path":["username"],"type":"any.required","context":{"key":"username","label":"username"}},"1":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"key":"password","label":"password"}},"2":{"message":"\"email\" is required","path":["email"],"type":"any.required","context":{"key":"email","label":"email"}}}
+info: 2020-05-16T19:48:39.054Z ::1 - POST /usuarios HTTP/1.1 400 218 - 1.407 ms
+info: 2020-05-16T20:17:24.167Z escuchando en el puerto 3000
+info: 2020-05-16T20:17:26.855Z ::1 - GET /productos HTTP/1.1 200 216 - 2.475 ms
+info: 2020-05-16T20:17:31.947Z ::1 - POST /productos/ HTTP/1.1 500 1315 - 2.524 ms
+error: 2020-05-16T20:23:45.428Z uncaughtException: Joi is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:1
+ReferenceError: Joi is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:5:26)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:1\nReferenceError: Joi is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:5:26)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Sat May 16 2020 15:23:45 GMT-0500 (GMT-05:00)","process":{"pid":15368,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":57802752,"heapTotal":34750464,"heapUsed":19966656,"external":4419560}},"os":{"loadavg":[0,0,0],"uptime":113216},"trace":[{"column":26,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js","function":null,"line":5,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-05-16T20:23:46.505Z escuchando en el puerto 3000
+info: 2020-05-16T20:24:01.254Z escuchando en el puerto 3000
+info: 2020-05-16T20:24:18.278Z escuchando en el puerto 3000
+info: 2020-05-16T20:24:23.306Z ::1 - GET /productos HTTP/1.1 200 216 - 2.382 ms
+info: 2020-05-16T20:24:26.932Z Producto agregado a la colección de productos {"titulo":"Lampara Fiona","precio":250.11,"moneda":"CAD","id":"349ab697-6d38-463b-b772-e90d82b0b8eb"}
+info: 2020-05-16T20:24:26.935Z ::1 - POST /productos/ HTTP/1.1 201 101 - 11.585 ms
+info: 2020-05-16T20:24:30.678Z ::1 - GET /productos HTTP/1.1 200 318 - 0.438 ms
+info: 2020-05-16T20:24:35.846Z Producto con id [5678] reemplazado con nuevo producto {"titulo":"Zapatillas Nike","moneda":"USD","precio":10,"id":"5678"}
+info: 2020-05-16T20:24:35.848Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 1.998 ms
+info: 2020-05-16T20:24:40.352Z ::1 - GET /productos HTTP/1.1 200 320 - 0.995 ms
+info: 2020-05-16T20:24:45.738Z ::1 - DELETE /productos/1234 HTTP/1.1 200 76 - 0.439 ms
+info: 2020-05-16T20:24:49.705Z ::1 - GET /productos HTTP/1.1 200 245 - 0.353 ms
+info: 2020-05-16T20:24:55.463Z ::1 - GET /usuarios HTTP/1.1 200 2 - 0.932 ms
+info: 2020-05-16T20:26:50.583Z Usuario fallo la validación {"0":{"message":"\"username\" is required","path":["username"],"type":"any.required","context":{"key":"username","label":"username"}},"1":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"key":"password","label":"password"}},"2":{"message":"\"email\" is required","path":["email"],"type":"any.required","context":{"key":"email","label":"email"}}}
+info: 2020-05-16T20:26:50.607Z ::1 - POST /usuarios HTTP/1.1 400 218 - 6.988 ms
+info: 2020-05-16T20:26:52.348Z Usuario fallo la validación {"0":{"message":"\"username\" is required","path":["username"],"type":"any.required","context":{"key":"username","label":"username"}},"1":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"key":"password","label":"password"}},"2":{"message":"\"email\" is required","path":["email"],"type":"any.required","context":{"key":"email","label":"email"}}}
+info: 2020-05-16T20:26:52.350Z ::1 - POST /usuarios HTTP/1.1 400 218 - 2.596 ms
+info: 2020-05-16T20:29:23.167Z escuchando en el puerto 3000
+info: 2020-05-16T20:29:26.653Z escuchando en el puerto 3000
+info: 2020-05-16T20:29:28.163Z escuchando en el puerto 3000
+info: 2020-05-16T20:29:29.549Z escuchando en el puerto 3000
+info: 2020-05-16T20:29:30.530Z escuchando en el puerto 3000
+info: 2020-05-16T20:29:39.650Z escuchando en el puerto 3000
+info: 2020-05-16T20:29:43.993Z Usuario fallo la validación {"0":{"message":"\"username\" is required","path":["username"],"type":"any.required","context":{"key":"username","label":"username"}},"1":{"message":"\"password\" is required","path":["password"],"type":"any.required","context":{"key":"password","label":"password"}},"2":{"message":"\"email\" is required","path":["email"],"type":"any.required","context":{"key":"email","label":"email"}}}
+info: 2020-05-16T20:29:44.024Z ::1 - POST /usuarios HTTP/1.1 400 218 - 33.881 ms
+info: 2020-05-16T20:31:13.527Z escuchando en el puerto 3000
+info: 2020-05-16T20:31:15.110Z escuchando en el puerto 3000
+info: 2020-05-16T20:34:44.955Z escuchando en el puerto 3000
+info: 2020-05-16T20:35:05.910Z escuchando en el puerto 3000
+info: 2020-05-16T20:35:28.803Z escuchando en el puerto 3000
+info: 2020-05-16T20:35:52.720Z escuchando en el puerto 3000
+info: 2020-05-16T20:36:00.548Z ::1 - GET /usuarios HTTP/1.1 200 2 - 2.770 ms
+info: 2020-05-16T20:36:03.062Z ::1 - GET /productos HTTP/1.1 200 216 - 1.056 ms
+info: 2020-05-16T20:36:10.673Z Producto agregado a la colección de productos {"titulo":"Lampara Fiona","precio":250.11,"moneda":"CAD","id":"6d5c4b13-6da4-4170-9c8e-f1260a70aa10"}
+info: 2020-05-16T20:36:10.676Z ::1 - POST /productos/ HTTP/1.1 201 101 - 13.336 ms
+info: 2020-05-16T20:36:13.201Z ::1 - GET /productos HTTP/1.1 200 318 - 0.266 ms
+info: 2020-05-16T20:36:16.126Z Producto con id [5678] reemplazado con nuevo producto {"titulo":"Zapatillas Nike","moneda":"USD","precio":10,"id":"5678"}
+info: 2020-05-16T20:36:16.128Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 1.768 ms
+info: 2020-05-16T20:36:18.221Z ::1 - GET /productos HTTP/1.1 200 320 - 0.248 ms
+info: 2020-05-16T20:36:21.587Z ::1 - DELETE /productos/1234 HTTP/1.1 200 76 - 0.381 ms
+info: 2020-05-16T20:36:24.334Z ::1 - GET /productos HTTP/1.1 200 245 - 0.318 ms
+info: 2020-05-16T20:36:27.942Z ::1 - GET /usuarios HTTP/1.1 200 2 - 0.239 ms
+info: 2020-05-16T20:36:44.119Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:36:44.141Z ::1 - POST /usuarios HTTP/1.1 400 223 - 4.678 ms
+info: 2020-05-16T20:36:57.359Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:36:57.362Z ::1 - POST /usuarios HTTP/1.1 400 223 - 2.224 ms
+info: 2020-05-16T20:37:41.973Z escuchando en el puerto 3000
+info: 2020-05-16T20:37:55.184Z escuchando en el puerto 3000
+info: 2020-05-16T20:37:56.413Z escuchando en el puerto 3000
+error: 2020-05-16T20:38:00.187Z uncaughtException: Invalid or unexpected token
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:23
+/*module.exports =  (req, res, next ) => {
+
+SyntaxError: Invalid or unexpected token
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:23\n/*module.exports =  (req, res, next ) => {\r\n\nSyntaxError: Invalid or unexpected token\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Sat May 16 2020 15:38:00 GMT-0500 (GMT-05:00)","process":{"pid":7308,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53460992,"heapTotal":33177600,"heapUsed":17723296,"external":4226726}},"os":{"loadavg":[0,0,0],"uptime":114071},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-05-16T20:38:02.778Z escuchando en el puerto 3000
+info: 2020-05-16T20:39:12.165Z escuchando en el puerto 3000
+info: 2020-05-16T20:39:18.145Z ::1 - GET /usuarios HTTP/1.1 200 2 - 10.106 ms
+info: 2020-05-16T20:39:29.194Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:39:29.215Z ::1 - POST /usuarios HTTP/1.1 400 223 - 14.385 ms
+info: 2020-05-16T20:39:30.489Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:39:30.491Z ::1 - POST /usuarios HTTP/1.1 400 223 - 1.749 ms
+info: 2020-05-16T20:39:32.907Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:39:32.909Z ::1 - POST /usuarios HTTP/1.1 400 223 - 1.933 ms
+error: 2020-05-16T20:41:19.789Z uncaughtException: Unexpected identifier
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:7
+    password:Joi.string().min(6).max(200).required(),// falta mas seguridad pero lo dejaremos asi por mientras como prueba
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:7\n    password:Joi.string().min(6).max(200).required(),// falta mas seguridad pero lo dejaremos asi por mientras como prueba\r\n\nSyntaxError: Unexpected identifier\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Sat May 16 2020 15:41:19 GMT-0500 (GMT-05:00)","process":{"pid":12668,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54157312,"heapTotal":33439744,"heapUsed":16721216,"external":4117602}},"os":{"loadavg":[0,0,0],"uptime":114271},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-05-16T20:41:26.139Z escuchando en el puerto 3000
+info: 2020-05-16T20:41:31.033Z escuchando en el puerto 3000
+info: 2020-05-16T20:41:35.442Z escuchando en el puerto 3000
+info: 2020-05-16T20:41:37.283Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:41:37.299Z ::1 - POST /usuarios HTTP/1.1 400 223 - 9.430 ms
+info: 2020-05-16T20:41:38.919Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:41:38.921Z ::1 - POST /usuarios HTTP/1.1 400 223 - 1.569 ms
+info: 2020-05-16T20:41:39.812Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:41:39.814Z ::1 - POST /usuarios HTTP/1.1 400 223 - 1.444 ms
+info: 2020-05-16T20:41:40.582Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:41:40.585Z ::1 - POST /usuarios HTTP/1.1 400 223 - 3.572 ms
+info: 2020-05-16T20:41:41.288Z Usuario falló la validación {"0":"\"username\" is required","1":"\"password\" is required","2":"\"email\" is required"}
+info: 2020-05-16T20:41:41.290Z ::1 - POST /usuarios HTTP/1.1 400 223 - 2.188 ms
+info: 2020-05-16T20:43:02.994Z ::1 - POST /usuarios HTTP/1.1 500 158 - 55.027 ms
+info: 2020-05-16T20:43:10.071Z ::1 - POST /usuarios HTTP/1.1 500 158 - 0.512 ms
+info: 2020-05-16T20:44:54.454Z escuchando en el puerto 3000
+info: 2020-05-16T20:44:58.584Z escuchando en el puerto 3000
+error: 2020-05-16T20:45:00.082Z uncaughtException: Unexpected token '*'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.validate.js:22
+  */
+
+SyntaxError: Unexpected token '*'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.validate.js:22\n  */\r\n\nSyntaxError: Unexpected token '*'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Sat May 16 2020 15:45:00 GMT-0500 (GMT-05:00)","process":{"pid":4800,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54140928,"heapTotal":33439744,"heapUsed":17041520,"external":4163371}},"os":{"loadavg":[0,0,0],"uptime":114491},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-05-16T20:45:04.237Z escuchando en el puerto 3000
+info: 2020-05-16T20:45:16.852Z escuchando en el puerto 3000
+info: 2020-05-16T20:45:19.766Z ::1 - POST /usuarios HTTP/1.1 500 158 - 13.645 ms
+info: 2020-05-16T20:45:23.231Z ::1 - GET /usuarios HTTP/1.1 200 2 - 1.848 ms
+info: 2020-05-16T20:45:26.805Z ::1 - POST /usuarios HTTP/1.1 500 158 - 0.627 ms
+info: 2020-05-16T20:46:55.250Z escuchando en el puerto 3000
+error: 2020-05-16T20:47:05.872Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:47:05.884Z ::1 - POST /usuarios HTTP/1.1 500 48 - 17.034 ms
+error: 2020-05-16T20:47:11.029Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:47:11.032Z ::1 - POST /usuarios HTTP/1.1 500 48 - 2.105 ms
+info: 2020-05-16T20:49:45.729Z escuchando en el puerto 3000
+error: 2020-05-16T20:50:02.575Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:50:02.592Z ::1 - POST /usuarios HTTP/1.1 500 48 - 18.725 ms
+info: 2020-05-16T20:50:30.691Z escuchando en el puerto 3000
+error: 2020-05-16T20:50:33.875Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:50:33.903Z ::1 - POST /usuarios HTTP/1.1 500 48 - 24.715 ms
+error: 2020-05-16T20:50:35.405Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:50:35.407Z ::1 - POST /usuarios HTTP/1.1 500 48 - 2.208 ms
+error: 2020-05-16T20:50:36.206Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:50:36.224Z ::1 - POST /usuarios HTTP/1.1 500 48 - 3.528 ms
+error: 2020-05-16T20:50:36.971Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-16T20:50:36.985Z ::1 - POST /usuarios HTTP/1.1 500 48 - 2.676 ms
+info: 2020-05-18T15:14:08.079Z escuchando en el puerto 3000
+info: 2020-05-18T15:16:09.053Z ::1 - GET /productos HTTP/1.1 200 216 - 2.577 ms
+info: 2020-05-18T15:16:14.471Z ::1 - GET /productos HTTP/1.1 200 216 - 0.338 ms
+info: 2020-05-18T15:16:18.905Z Producto agregado a la colección de productos {"titulo":"Lampara Fiona","precio":250.11,"moneda":"CAD","id":"a8a3edb4-4172-47f3-a063-c388ec4c5ca3"}
+info: 2020-05-18T15:16:18.908Z ::1 - POST /productos/ HTTP/1.1 201 101 - 19.556 ms
+info: 2020-05-18T15:16:22.510Z ::1 - GET /productos HTTP/1.1 200 318 - 0.408 ms
+info: 2020-05-18T15:16:25.640Z Producto con id [5678] reemplazado con nuevo producto {"titulo":"Zapatillas Nike","moneda":"USD","precio":10,"id":"5678"}
+info: 2020-05-18T15:16:25.642Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 2.104 ms
+info: 2020-05-18T15:16:29.103Z ::1 - GET /productos HTTP/1.1 200 320 - 0.316 ms
+info: 2020-05-18T15:16:33.736Z ::1 - DELETE /productos/1234 HTTP/1.1 200 76 - 0.516 ms
+info: 2020-05-18T15:16:38.486Z ::1 - GET /productos HTTP/1.1 200 245 - 0.224 ms
+error: 2020-05-18T15:16:45.041Z Error ocurrio al tratar de obtener el hash de una contraseñasalt.charAt is not a function {"stack":"TypeError: salt.charAt is not a function\n    at hashpw (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:501:11)\n    at hashSync (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:608:9)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:627:13\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"}
+info: 2020-05-18T15:16:45.091Z ::1 - POST /usuarios HTTP/1.1 500 48 - 173.257 ms
+info: 2020-05-18T15:16:50.408Z ::1 - GET /usuarios HTTP/1.1 200 2 - 0.336 ms
+info: 2020-05-18T15:18:29.312Z escuchando en el puerto 3000
+info: 2020-05-18T15:18:35.596Z ::1 - POST /usuarios HTTP/1.1 500 158 - 15.089 ms
+info: 2020-05-18T15:21:15.731Z escuchando en el puerto 3000
+info: 2020-05-18T15:21:28.289Z ::1 - GET /usuarios HTTP/1.1 200 2 - 3.778 ms
+info: 2020-05-18T15:21:31.437Z ::1 - POST /usuarios HTTP/1.1 500 158 - 28.841 ms
+info: 2020-05-18T15:24:28.925Z ::1 - POST /usuarios HTTP/1.1 500 158 - 1.276 ms
