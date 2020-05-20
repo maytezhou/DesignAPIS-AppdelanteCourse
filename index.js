@@ -5,18 +5,10 @@ const morgan = require('morgan')
 const usuariosRouter = require('./api/recursos/usuarios/usuarios.routes')
 const logger = require('./utils/logger')
 const passport = require('passport')
-
+const auth = require('./api/libs/auth')
 // autenticación básica
 const BasicStrategy = require('passport-http').BasicStrategy
-passport.use(new BasicStrategy(
-    (username, password, done)=>{
-if(username.valueOf() === 'daniel' && password.valueOf() === 'appdelante123'){
-    return done(null,true)
-}else{
-    return done(null,false) // null es para lanzar algun error 
-}
-    }
-))
+passport.use(new BasicStrategy(auth))
 
 
 const app = express();
