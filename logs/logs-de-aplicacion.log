@@ -2074,3 +2074,19 @@ SyntaxError: Malformed arrow function parameter list
     at Object.compileFunction (vm.js:381:18)
     at Generator.next (<anonymous>)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:58\nusuariosRouter.post('/login',validarPedidoDeLogin (req, res) => {\r\n\nSyntaxError: Malformed arrow function parameter list\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Wed May 20 2020 11:01:17 GMT-0500 (GMT-05:00)","process":{"pid":7864,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":52838400,"heapTotal":33177600,"heapUsed":17925104,"external":4487080}},"os":{"loadavg":[0,0,0],"uptime":129909},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-05-20T16:01:19.488Z escuchando en el puerto 3000
+info: 2020-05-20T16:04:17.952Z ::1 - POST /usuarios/login HTTP/1.1 400 94 - 38.390 ms
+info: 2020-05-20T16:04:51.531Z ::1 - GET /productos HTTP/1.1 200 216 - 1.651 ms
+info: 2020-05-20T16:04:57.581Z Producto agregado a la colección de productos {"titulo":"Lampara Fiona","precio":250.11,"moneda":"CAD","id":"4f6632ab-5cbe-40ab-bd94-ba5745403c50"}
+info: 2020-05-20T16:04:57.584Z ::1 - POST /productos/ HTTP/1.1 201 101 - 4.514 ms
+info: 2020-05-20T16:05:11.240Z ::1 - GET /productos HTTP/1.1 200 318 - 0.306 ms
+info: 2020-05-20T16:05:15.555Z Producto con id [5678] reemplazado con nuevo producto {"titulo":"Zapatillas Nike","moneda":"USD","precio":10,"id":"5678"}
+info: 2020-05-20T16:05:15.558Z ::1 - PUT /productos/5678 HTTP/1.1 200 67 - 4.109 ms
+info: 2020-05-20T16:05:19.542Z ::1 - GET /productos HTTP/1.1 200 320 - 0.320 ms
+info: 2020-05-20T16:05:22.432Z ::1 - DELETE /productos/1234 HTTP/1.1 200 76 - 0.405 ms
+info: 2020-05-20T16:05:25.997Z ::1 - GET /productos HTTP/1.1 200 245 - 0.731 ms
+info: 2020-05-20T16:05:29.788Z ::1 - GET /productos HTTP/1.1 200 245 - 0.290 ms
+info: 2020-05-20T16:05:34.984Z ::1 - GET /usuarios HTTP/1.1 200 2 - 0.318 ms
+info: 2020-05-20T16:05:45.370Z ::1 - POST /usuarios HTTP/1.1 201 27 - 767.183 ms
+info: 2020-05-20T16:05:49.373Z ::1 - GET /usuarios HTTP/1.1 200 176 - 0.638 ms
+info: 2020-05-20T16:06:00.803Z ::1 - POST /usuarios/login HTTP/1.1 400 94 - 0.639 ms
