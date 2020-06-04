@@ -9,8 +9,9 @@ let jwtOptions={
     jwtFromRequest: passportJWT.ExtractJwt.fromAuthHeaderAsBearerToken()
 }
 
-let jwtStrategy = new passportJWT.Strategy(jwtOptions, (jwtPayload, next) => {
+module.exports = new passportJWT.Strategy(jwtOptions, (jwtPayload, next) => {
     let index = _.findIndex(usuarios, usuario => usuario.id === jwtPayload.id)
+    
     if (index === -1) {
         log.info(`JWT token no es válido. Usuario con id  ${jwtPayload.id} no  existe`)
         next(null, false)
@@ -21,24 +22,3 @@ let jwtStrategy = new passportJWT.Strategy(jwtOptions, (jwtPayload, next) => {
     }
 })
 
-module.exports = (username, password, done) => {
-    let index = _.findIndex(usuarios, usuario => usuario.username === username)
-    if (index === -1) {
-        log.info(`Usuario ${username} no existe. No pudo ser autentificado`)
-        done(null, false)
-        return
-    }
-    let hashedPassword = usuarios[index].password
-    bcrypt.compare(password, hashedPassword, (err, iguales) => {
-        if (iguales) {
-            log.info(`Usuario ${username} completó autenticación`)
-            done(null, true)
-        } else {
-            log.info(`Usuario ${username} no completó autenticación. Contraseña incorrecta`)
-            done(null, false)
-        }
-    })
-
-
-
-}

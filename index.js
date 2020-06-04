@@ -4,13 +4,13 @@ const productosRouter = require('./api/recursos/productos/productos.routes')
 const usuariosRouter = require('./api/recursos/usuarios/usuarios.routes')
 const morgan = require('morgan')
 const logger = require('./utils/logger')
-const auth = require('./api/libs/auth')
+const authJWT = require('./api/libs/auth')
 
 const passport = require('passport')
 
 // autenticación básica
-const BasicStrategy = require('passport-http').BasicStrategy
-passport.use(new BasicStrategy(auth))
+
+passport.use(authJWT)
 
 
 const app = express();
@@ -35,7 +35,9 @@ app.use('/usuarios', usuariosRouter)
 
 // definir la primera ruta 
 // formato de rutas express
-app.get('/',passport.authenticate('basic',{ session:false}),(req,res)=>{
+app.get('/',passport.authenticate('jwt',{ session:false}),(req,res)=>{
+    logger.info(req)
+    logger.info(req.user)
 res.send('Api de vendetuscorotos.com')
 })
 app.listen('3000',()=>{
