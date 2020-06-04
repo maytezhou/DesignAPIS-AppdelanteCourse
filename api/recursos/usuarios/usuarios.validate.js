@@ -9,7 +9,7 @@ const blueprintUsuario = Joi.object().keys({
 })
 
 // exportar el middleware que se encarga de la validacion
-let validarUusario =  (req, res, next ) => {
+let validarUsuario =  (req, res, next ) => {
 const resultado = Joi.validate (req.body, blueprintUsuario, {abortEarly: false, convert: false })
 if(resultado.error === null){
     next()
@@ -36,5 +36,5 @@ if( resultado.error === null ){ // el pedido fue validado exitosamente
 }
 module.exports = {
     validarPedidoDeLogin,
-    validarUusario
+    validarUsuario
 }

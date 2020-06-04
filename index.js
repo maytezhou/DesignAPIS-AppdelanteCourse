@@ -1,11 +1,13 @@
 const express = require('express');
 const bodyParser= require('body-parser');
 const productosRouter = require('./api/recursos/productos/productos.routes')
-const morgan = require('morgan')
 const usuariosRouter = require('./api/recursos/usuarios/usuarios.routes')
+const morgan = require('morgan')
 const logger = require('./utils/logger')
-const passport = require('passport')
 const auth = require('./api/libs/auth')
+
+const passport = require('passport')
+
 // autenticación básica
 const BasicStrategy = require('passport-http').BasicStrategy
 passport.use(new BasicStrategy(auth))

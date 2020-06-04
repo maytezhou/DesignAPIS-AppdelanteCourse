@@ -1,20 +1,16 @@
 const express = require('express');
 const _ = require('underscore');
-const {
-  v4: uuidv4
-} = require('uuid');
-const validarUsuario = require('./usuarios.validate').validarUusario
-const validarPedidoDeLogin =require('./usuarios.validate').validarPedidoDeLogin
+const { v4: uuidv4 } = require('uuid');
 const bcrypt = require('bcrypt-nodejs');
-const salt = bcrypt.genSaltSync(10);
 const jwt = require('jsonwebtoken')
-// const bcrypt = require('bcrypt')
 
 const log = require('./../../../utils/logger')
-
-
+const validarUsuario = require('./usuarios.validate').validarUsuario
+const validarPedidoDeLogin = require('./usuarios.validate').validarPedidoDeLogin
 const usuarios = require('./../../../database').usuarios
 const usuariosRouter = express.Router()
+
+const salt = bcrypt.genSaltSync(10);
 // ruta solo para desarrollo          no  la tendremos en produccion 
 // GET /usuarios/
 // ruta basica
@@ -42,6 +38,7 @@ usuariosRouter.post('/', validarUsuario, (req, res) => {
       res.status(500).send('Ocurrio un error procesando creación de usuario')
       return
     }
+
     usuarios.push({
       username: nuevoUsuario.username,
       email: nuevoUsuario.email,
@@ -55,7 +52,7 @@ usuariosRouter.post('/', validarUsuario, (req, res) => {
 
 
 // ruta para login 
-usuariosRouter.post('/login',validarPedidoDeLogin, (req, res) => {
+usuariosRouter.post('/login', validarPedidoDeLogin, (req, res) => {
   let usuarioNoAutenticado = req.body
   let index = _.findIndex(usuarios, (usuario) => usuario.username === usuarioNoAutenticado.username)
   if (index === -1) {
@@ -69,8 +66,8 @@ usuariosRouter.post('/login',validarPedidoDeLogin, (req, res) => {
     if (iguales) {
       // generar y enviar token
       let token = jwt.sign({ id: usuarios[index].id }, 'este es un secreto', { expiresIn: 86400 })
-    log.info(`Usuario ${usuarioNoAutenticado.username} completó autenticación exitosamente`)
-      res.status(200).json({ token})
+      log.info(`Usuario ${usuarioNoAutenticado.username} completó autenticación exitosamente`)
+      res.status(200).json({ token })
 
     } else {
       log.info(`Usuario ${usuarioNoAutenticado.username} no completó autenticación. Contraseña incorrecta`)
