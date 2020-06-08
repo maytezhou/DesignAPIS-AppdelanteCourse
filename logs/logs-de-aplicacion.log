@@ -4674,3 +4674,6 @@ info: 2020-06-08T20:01:26.969Z escuchando en el puerto 3000
 info: 2020-06-08T20:02:12.184Z escuchando en el puerto 3000
 info: 2020-06-08T20:02:16.043Z escuchando en el puerto 3000
 info: 2020-06-08T20:03:12.857Z escuchando en el puerto 3000
+info: 2020-06-08T21:39:44.142Z escuchando en el puerto 3000
+error: 2020-06-08T21:39:46.265Z Falló la conexión a mongodb
+info: 2020-06-08T21:40:28.344Z escuchando en el puerto 3000
