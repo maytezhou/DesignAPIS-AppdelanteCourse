@@ -18,6 +18,7 @@ case 'prod':
     configuraciónDeAmbiente = require('./dev')
 
  }
+ 
  module.exports = {
 ...configuraciónBase,
 ...configuraciónDeAmbiente

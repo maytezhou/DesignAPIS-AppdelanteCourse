@@ -1,13 +1,17 @@
 const _ = require('underscore')
+const bcrypt = require('bcrypt-nodejs')
+const passportJWT = require('passport-jwt')
+
 const log = require('./../../utils/logger')
 const usuarios = require('./../../database').usuarios
-const bcrypt = require('bcrypt-nodejs');
-const passportJWT = require('passport-jwt')
+const config = require('../../config')
+
+
 // Token debe ser especificado mediante el header Authorization. Ejemplo:
 //Authorization : bearer xxxx.yyyy.zzzz
 
 let jwtOptions={
-    secretOrKey :'este es un secreto',
+    secretOrKey : config.jwt.secreto,
     jwtFromRequest: passportJWT.ExtractJwt.fromAuthHeaderAsBearerToken()
 }
 

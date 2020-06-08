@@ -4296,3 +4296,380 @@ info: 2020-06-08T16:36:42.349Z Usuario daniel suministró un token válido. Aunt
 info: 2020-06-08T16:36:42.350Z Producto con id  [49cad105-c6e5-49b2-924e-95c2bebf0d99] fue borrado
 info: 2020-06-08T16:36:42.352Z ::1 - DELETE /productos/49cad105-c6e5-49b2-924e-95c2bebf0d99 HTTP/1.1 200 128 - 2.137 ms
 info: 2020-06-08T16:36:49.363Z ::1 - GET /productos HTTP/1.1 200 216 - 0.262 ms
+info: 2020-06-08T17:15:02.065Z escuchando en el puerto 3000
+info: 2020-06-08T19:51:04.256Z escuchando en el puerto 3000
+error: 2020-06-08T19:53:42.140Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:4:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:4:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:53:42 GMT-0500 (GMT-05:00)","process":{"pid":8700,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55914496,"heapTotal":33701888,"heapUsed":16348880,"external":4284454}},"os":{"loadavg":[0,0,0],"uptime":371522},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":4,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+info: 2020-06-08T19:53:47.965Z escuchando en el puerto 3000
+info: 2020-06-08T19:54:19.355Z escuchando en el puerto 3000
+info: 2020-06-08T19:54:29.651Z escuchando en el puerto 3000
+info: 2020-06-08T19:54:30.957Z escuchando en el puerto 3000
+error: 2020-06-08T19:54:33.361Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:6:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:6:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:54:33 GMT-0500 (GMT-05:00)","process":{"pid":15636,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54435840,"heapTotal":33439744,"heapUsed":17644040,"external":4407054}},"os":{"loadavg":[0,0,0],"uptime":371574},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":6,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:54:47.022Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:54:46 GMT-0500 (GMT-05:00)","process":{"pid":3816,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54898688,"heapTotal":33701888,"heapUsed":17023744,"external":4333956}},"os":{"loadavg":[0,0,0],"uptime":371587},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:55:21.164Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:55:21 GMT-0500 (GMT-05:00)","process":{"pid":8624,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54009856,"heapTotal":33177600,"heapUsed":18110440,"external":4440522}},"os":{"loadavg":[0,0,0],"uptime":371621},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:55:23.867Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:55:23 GMT-0500 (GMT-05:00)","process":{"pid":11488,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55230464,"heapTotal":33439744,"heapUsed":16897728,"external":4327204}},"os":{"loadavg":[0,0,0],"uptime":371624},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:55:25.375Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:55:25 GMT-0500 (GMT-05:00)","process":{"pid":16328,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54550528,"heapTotal":33701888,"heapUsed":17876168,"external":4420258}},"os":{"loadavg":[0,0,0],"uptime":371626},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:55:38.826Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:55:38 GMT-0500 (GMT-05:00)","process":{"pid":16012,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55435264,"heapTotal":33439744,"heapUsed":16920736,"external":4328620}},"os":{"loadavg":[0,0,0],"uptime":371639},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:55:41.848Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:55:41 GMT-0500 (GMT-05:00)","process":{"pid":2512,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55959552,"heapTotal":33439744,"heapUsed":16954256,"external":4336788}},"os":{"loadavg":[0,0,0],"uptime":371642},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:55:45.899Z uncaughtException: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './config'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './config'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:55:45 GMT-0500 (GMT-05:00)","process":{"pid":9168,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54177792,"heapTotal":33439744,"heapUsed":18115672,"external":4441962}},"os":{"loadavg":[0,0,0],"uptime":371646},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:12.427Z uncaughtException: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:12 GMT-0500 (GMT-05:00)","process":{"pid":3352,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55357440,"heapTotal":33439744,"heapUsed":16958944,"external":4338252}},"os":{"loadavg":[0,0,0],"uptime":371673},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:17.606Z uncaughtException: Cannot find module '/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:17 GMT-0500 (GMT-05:00)","process":{"pid":3796,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55455744,"heapTotal":33439744,"heapUsed":16959752,"external":4339692}},"os":{"loadavg":[0,0,0],"uptime":371678},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:21.216Z uncaughtException: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:21 GMT-0500 (GMT-05:00)","process":{"pid":5384,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53952512,"heapTotal":33177600,"heapUsed":18067320,"external":4436650}},"os":{"loadavg":[0,0,0],"uptime":371681},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:24.700Z uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:24 GMT-0500 (GMT-05:00)","process":{"pid":3420,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54226944,"heapTotal":33177600,"heapUsed":17705536,"external":4416386}},"os":{"loadavg":[0,0,0],"uptime":371685},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:29.999Z uncaughtException: Cannot find module '../libs'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../libs'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../libs'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:29 GMT-0500 (GMT-05:00)","process":{"pid":9820,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54636544,"heapTotal":33439744,"heapUsed":17383480,"external":4399286}},"os":{"loadavg":[0,0,0],"uptime":371690},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:32.508Z uncaughtException: Cannot find module '../libs/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../libs/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../libs/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:32 GMT-0500 (GMT-05:00)","process":{"pid":1424,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55357440,"heapTotal":33439744,"heapUsed":16939472,"external":4341132}},"os":{"loadavg":[0,0,0],"uptime":371693},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:33.817Z uncaughtException: Cannot find module '../libs/..'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../libs/..'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../libs/..'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:33 GMT-0500 (GMT-05:00)","process":{"pid":18808,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53694464,"heapTotal":33177600,"heapUsed":17853096,"external":4417834}},"os":{"loadavg":[0,0,0],"uptime":371694},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:38.110Z uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:38 GMT-0500 (GMT-05:00)","process":{"pid":15440,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54431744,"heapTotal":33439744,"heapUsed":17613920,"external":4417118}},"os":{"loadavg":[0,0,0],"uptime":371698},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:40.402Z uncaughtException: Cannot find module '../recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:7:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../recursos/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:7:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:56:40 GMT-0500 (GMT-05:00)","process":{"pid":12988,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54317056,"heapTotal":33439744,"heapUsed":17743592,"external":4411090}},"os":{"loadavg":[0,0,0],"uptime":371701},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:56:48.892Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:56:48 GMT-0500 (GMT-05:00)","process":{"pid":96,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55164928,"heapTotal":33701888,"heapUsed":17128096,"external":4373750}},"os":{"loadavg":[0,0,0],"uptime":371709},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:56:50.787Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:56:50 GMT-0500 (GMT-05:00)","process":{"pid":16896,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54894592,"heapTotal":33177600,"heapUsed":17517304,"external":4384166}},"os":{"loadavg":[0,0,0],"uptime":371711},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:57:00.107Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:57:00 GMT-0500 (GMT-05:00)","process":{"pid":18808,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54018048,"heapTotal":33177600,"heapUsed":18043592,"external":4434770}},"os":{"loadavg":[0,0,0],"uptime":371720},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:00.644Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:00 GMT-0500 (GMT-05:00)","process":{"pid":8684,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54288384,"heapTotal":33439744,"heapUsed":18116376,"external":4455034}},"os":{"loadavg":[0,0,0],"uptime":371781},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:02.853Z uncaughtException: Identifier 'log' has already been declared
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11
+const log = require('./../../utils/logger')
+
+SyntaxError: Identifier 'log' has already been declared
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11\nconst log = require('./../../utils/logger')\r\n\nSyntaxError: Identifier 'log' has already been declared\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:02 GMT-0500 (GMT-05:00)","process":{"pid":4108,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53870592,"heapTotal":32915456,"heapUsed":18112296,"external":4598478}},"os":{"loadavg":[0,0,0],"uptime":371783},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:04.240Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:04 GMT-0500 (GMT-05:00)","process":{"pid":11888,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55644160,"heapTotal":33701888,"heapUsed":17161008,"external":4358076}},"os":{"loadavg":[0,0,0],"uptime":371784},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:10.510Z uncaughtException: The 'request' argument must be string. Received type undefined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+TypeError [ERR_INVALID_ARG_TYPE]: The 'request' argument must be string. Received type undefined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11:16)
+    at Generator.next (<anonymous>) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nTypeError [ERR_INVALID_ARG_TYPE]: The 'request' argument must be string. Received type undefined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:58:10 GMT-0500 (GMT-05:00)","process":{"pid":6776,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53977088,"heapTotal":33177600,"heapUsed":16300712,"external":4303154}},"os":{"loadavg":[0,0,0],"uptime":371791},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:58:13.204Z uncaughtException: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module './'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:58:13 GMT-0500 (GMT-05:00)","process":{"pid":17712,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54292480,"heapTotal":33177600,"heapUsed":15843824,"external":4284646}},"os":{"loadavg":[0,0,0],"uptime":371793},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:58:14.887Z uncaughtException: The argument 'request' must be a non-empty string. Received ''
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error [ERR_INVALID_ARG_VALUE]: The argument 'request' must be a non-empty string. Received ''
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11:16)
+    at Generator.next (<anonymous>) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError [ERR_INVALID_ARG_VALUE]: The argument 'request' must be a non-empty string. Received ''\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:58:14 GMT-0500 (GMT-05:00)","process":{"pid":9528,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54464512,"heapTotal":33177600,"heapUsed":15770808,"external":4284622}},"os":{"loadavg":[0,0,0],"uptime":371795},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:58:16.403Z uncaughtException: Cannot find module '/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module '/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module '/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:58:16 GMT-0500 (GMT-05:00)","process":{"pid":6848,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55730176,"heapTotal":33177600,"heapUsed":20905152,"external":4933030}},"os":{"loadavg":[0,0,0],"uptime":371797},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:58:19.610Z uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module '../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:58:19 GMT-0500 (GMT-05:00)","process":{"pid":8104,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55427072,"heapTotal":32915456,"heapUsed":20912656,"external":4933054}},"os":{"loadavg":[0,0,0],"uptime":371800},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:58:23.724Z uncaughtException: Cannot find module '../../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:1
+Error: Cannot find module '../../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:11:16)
+    at Generator.next (<anonymous>) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:1\nError: Cannot find module '../../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:11:16)\n    at Generator.next (<anonymous>)","exception":true,"date":"Mon Jun 08 2020 14:58:23 GMT-0500 (GMT-05:00)","process":{"pid":9240,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55328768,"heapTotal":33439744,"heapUsed":20877536,"external":4934982}},"os":{"loadavg":[0,0,0],"uptime":371804},"trace":[{"column":16,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":11,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+error: 2020-06-08T19:58:27.189Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:27 GMT-0500 (GMT-05:00)","process":{"pid":16432,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54153216,"heapTotal":33439744,"heapUsed":18124064,"external":4458898}},"os":{"loadavg":[0,0,0],"uptime":371807},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:28.598Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:28 GMT-0500 (GMT-05:00)","process":{"pid":11120,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54493184,"heapTotal":33177600,"heapUsed":17917096,"external":4430442}},"os":{"loadavg":[0,0,0],"uptime":371809},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:53.922Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:53 GMT-0500 (GMT-05:00)","process":{"pid":10552,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54272000,"heapTotal":33701888,"heapUsed":17970512,"external":4432402}},"os":{"loadavg":[0,0,0],"uptime":371834},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:58:56.531Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:58:56 GMT-0500 (GMT-05:00)","process":{"pid":13136,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55668736,"heapTotal":33439744,"heapUsed":17056184,"external":4355708}},"os":{"loadavg":[0,0,0],"uptime":371837},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:59:20.801Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:70
+      let token = jwt.sign({ id: usuarios[index].id }, config.secreto, { config.tiempo })
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:70\n      let token = jwt.sign({ id: usuarios[index].id }, config.secreto, { config.tiempo })\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:59:20 GMT-0500 (GMT-05:00)","process":{"pid":964,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55336960,"heapTotal":33177600,"heapUsed":17176568,"external":4494252}},"os":{"loadavg":[0,0,0],"uptime":371861},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:59:26.305Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:70
+      let token = jwt.sign({ id: usuarios[index].id }, config.secreto, { config.tiempoDeExpiración })
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:70\n      let token = jwt.sign({ id: usuarios[index].id }, config.secreto, { config.tiempoDeExpiración })\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:59:26 GMT-0500 (GMT-05:00)","process":{"pid":10300,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":54738944,"heapTotal":33439744,"heapUsed":17241640,"external":4494252}},"os":{"loadavg":[0,0,0],"uptime":371866},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:59:38.356Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:59:38 GMT-0500 (GMT-05:00)","process":{"pid":14180,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55312384,"heapTotal":33964032,"heapUsed":17138888,"external":4368433}},"os":{"loadavg":[0,0,0],"uptime":371879},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:59:43.451Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:59:43 GMT-0500 (GMT-05:00)","process":{"pid":7928,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55603200,"heapTotal":33439744,"heapUsed":17055632,"external":4359628}},"os":{"loadavg":[0,0,0],"uptime":371884},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:59:50.466Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:59:50 GMT-0500 (GMT-05:00)","process":{"pid":9096,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":53968896,"heapTotal":33177600,"heapUsed":18085680,"external":4458546}},"os":{"loadavg":[0,0,0],"uptime":371891},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T19:59:55.564Z uncaughtException: JwtStrategy requires a secret or key
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:1
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Diseño-de-APIS-Con-NodeJs\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:18:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:1\nTypeError: JwtStrategy requires a secret or key\n    at new JwtStrategy (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js:45:15)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:18:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 14:59:55 GMT-0500 (GMT-05:00)","process":{"pid":13760,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":55607296,"heapTotal":33964032,"heapUsed":17144520,"external":4374313}},"os":{"loadavg":[0,0,0],"uptime":371896},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\passport-jwt\\lib\\strategy.js","function":"new JwtStrategy","line":45,"method":null,"native":false},{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":18,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-08T20:01:16.215Z escuchando en el puerto 3000
+info: 2020-06-08T20:01:26.969Z escuchando en el puerto 3000
+info: 2020-06-08T20:02:12.184Z escuchando en el puerto 3000
+info: 2020-06-08T20:02:16.043Z escuchando en el puerto 3000
