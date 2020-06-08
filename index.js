@@ -31,15 +31,6 @@ app.use(passport.initialize())
 app.use('/productos',productosRouter)
 app.use('/usuarios', usuariosRouter)
 
-
-
-// definir la primera ruta 
-// formato de rutas express
-app.get('/',passport.authenticate('jwt',{ session:false}),(req,res)=>{
-    logger.info(req)
-    logger.info(req.user)
-res.send('Api de vendetuscorotos.com')
-})
 app.listen('3000',()=>{
 logger.info('escuchando en el puerto 3000')
 });

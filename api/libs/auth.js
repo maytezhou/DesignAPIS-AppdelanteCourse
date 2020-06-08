@@ -3,6 +3,8 @@ const log = require('./../../utils/logger')
 const usuarios = require('./../../database').usuarios
 const bcrypt = require('bcrypt-nodejs');
 const passportJWT = require('passport-jwt')
+// Token debe ser especificado mediante el header Authorization. Ejemplo:
+//Authorization : bearer xxxx.yyyy.zzzz
 
 let jwtOptions={
     secretOrKey :'este es un secreto',
