@@ -18,9 +18,14 @@ const Producto = require('./producto.model')
  function borrarProducto (id){
 return Producto.findByIdAndRemove(id)
  }
+
+ function reemplazarProducto (id,producto,username){
+    return Producto.findOneAndUpdate({ _id:id},{ ...producto, dueño:username},{new:true}) // la opción new es para que la llamada regrese el nuevo documento modificado
+ }
  module.exports={
      crearProducto,
      obtenerProductos,
      obtenerProducto,
-     borrarProducto
+     borrarProducto,
+     reemplazarProducto
  }

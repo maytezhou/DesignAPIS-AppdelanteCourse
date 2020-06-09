@@ -5073,3 +5073,108 @@ info: 2020-06-09T22:33:16.678Z escuchando en el puerto 3000
 info: 2020-06-09T22:33:22.711Z escuchando en el puerto 3000
 info: 2020-06-09T22:33:29.251Z escuchando en el puerto 3000
 info: 2020-06-09T22:33:33.028Z escuchando en el puerto 3000
+info: 2020-06-09T22:44:01.408Z escuchando en el puerto 3000
+info: 2020-06-09T22:44:43.061Z ::1 - GET /productos HTTP/1.1 200 232 - 20.956 ms
+info: 2020-06-09T22:44:49.993Z ::1 - GET /usuarios HTTP/1.1 200 2 - 0.399 ms
+info: 2020-06-09T22:44:55.298Z ::1 - POST /usuarios HTTP/1.1 201 27 - 222.544 ms
+info: 2020-06-09T22:45:05.426Z Usuario daniel completó autenticación exitosamente
+info: 2020-06-09T22:45:05.427Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 224.175 ms
+info: 2020-06-09T22:45:43.306Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-09T22:45:43.309Z ::1 - DELETE /productos/49cad105-c6e5-49b2-924e-95c2bebf0d99 HTTP/1.1 400 81 - 5.329 ms
+info: 2020-06-09T22:46:04.695Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-09T22:46:04.761Z Producto con id  [5edfc0dfc9e4c01ef4c4beeb] fue borrado 
+info: 2020-06-09T22:46:04.763Z ::1 - DELETE /productos/5edfc0dfc9e4c01ef4c4beeb HTTP/1.1 200 115 - 67.564 ms
+info: 2020-06-09T22:46:53.716Z ::1 - GET /productos HTTP/1.1 200 116 - 2.918 ms
+info: 2020-06-09T22:47:09.672Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-09T22:47:09.673Z ::1 - DELETE /productos/5edfbcb1c265da3ab826913c1 HTTP/1.1 400 70 - 1.260 ms
+info: 2020-06-09T22:47:15.339Z ::1 - GET /productos HTTP/1.1 200 116 - 3.267 ms
+info: 2020-06-09T22:48:03.485Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-09T22:48:03.493Z Producto con id [5edfbcb1c265da3ab826913b] no existe. Nada que borrar
+info: 2020-06-09T22:48:03.495Z ::1 - DELETE /productos/5edfbcb1c265da3ab826913b HTTP/1.1 404 73 - 9.529 ms
+info: 2020-06-09T22:50:11.589Z ::1 - POST /usuarios HTTP/1.1 201 27 - 197.468 ms
+info: 2020-06-09T22:52:51.897Z Usuario zaorizhou completó autenticación exitosamente
+info: 2020-06-09T22:52:51.898Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 195.177 ms
+info: 2020-06-09T22:54:22.306Z Usuario zaorizhou suministró un token válido. Auntenticación completada
+info: 2020-06-09T22:54:22.313Z Usuario [zaorizhou]  no es dueño de producto con id [5edfbcb1c265da3ab826913c].
+        Dueño real es [daniel]. Request no será procesado
+info: 2020-06-09T22:54:22.315Z ::1 - DELETE /productos/5edfbcb1c265da3ab826913c HTTP/1.1 401 116 - 8.594 ms
+info: 2020-06-09T23:34:03.554Z escuchando en el puerto 3000
+info: 2020-06-09T23:36:23.718Z escuchando en el puerto 3000
+info: 2020-06-09T23:37:28.240Z escuchando en el puerto 3000
+info: 2020-06-09T23:37:37.966Z escuchando en el puerto 3000
+info: 2020-06-09T23:37:53.343Z escuchando en el puerto 3000
+info: 2020-06-09T23:38:00.234Z escuchando en el puerto 3000
+info: 2020-06-09T23:38:09.832Z escuchando en el puerto 3000
+info: 2020-06-09T23:38:13.241Z escuchando en el puerto 3000
+info: 2020-06-09T23:38:23.506Z escuchando en el puerto 3000
+info: 2020-06-09T23:38:41.303Z escuchando en el puerto 3000
+info: 2020-06-09T23:38:43.959Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:00.183Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:30.062Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:33.484Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:38.432Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:41.168Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:46.103Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:48.736Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:51.554Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:53.683Z escuchando en el puerto 3000
+info: 2020-06-09T23:39:56.459Z escuchando en el puerto 3000
+info: 2020-06-09T23:40:00.281Z escuchando en el puerto 3000
+info: 2020-06-09T23:40:14.183Z escuchando en el puerto 3000
+info: 2020-06-09T23:40:39.502Z escuchando en el puerto 3000
+info: 2020-06-09T23:40:56.955Z escuchando en el puerto 3000
+info: 2020-06-09T23:41:06.371Z escuchando en el puerto 3000
+info: 2020-06-09T23:41:09.561Z escuchando en el puerto 3000
+info: 2020-06-09T23:41:19.740Z escuchando en el puerto 3000
+info: 2020-06-09T23:41:30.094Z escuchando en el puerto 3000
+info: 2020-06-09T23:42:08.016Z escuchando en el puerto 3000
+info: 2020-06-09T23:42:17.084Z escuchando en el puerto 3000
+info: 2020-06-09T23:42:32.876Z escuchando en el puerto 3000
+info: 2020-06-09T23:43:29.702Z escuchando en el puerto 3000
+info: 2020-06-09T23:43:37.031Z escuchando en el puerto 3000
+info: 2020-06-09T23:43:41.448Z escuchando en el puerto 3000
+info: 2020-06-09T23:43:44.009Z escuchando en el puerto 3000
+info: 2020-06-09T23:44:04.381Z escuchando en el puerto 3000
+info: 2020-06-09T23:44:18.536Z escuchando en el puerto 3000
+info: 2020-06-09T23:44:26.730Z escuchando en el puerto 3000
+info: 2020-06-09T23:44:38.801Z escuchando en el puerto 3000
+info: 2020-06-09T23:45:13.454Z escuchando en el puerto 3000
+info: 2020-06-09T23:45:18.235Z escuchando en el puerto 3000
+info: 2020-06-09T23:45:24.037Z escuchando en el puerto 3000
+info: 2020-06-09T23:45:37.057Z escuchando en el puerto 3000
+info: 2020-06-09T23:45:39.698Z escuchando en el puerto 3000
+info: 2020-06-09T23:45:45.175Z escuchando en el puerto 3000
+info: 2020-06-09T23:46:02.174Z escuchando en el puerto 3000
+info: 2020-06-09T23:46:14.018Z escuchando en el puerto 3000
+info: 2020-06-09T23:46:19.373Z escuchando en el puerto 3000
+info: 2020-06-09T23:46:38.706Z escuchando en el puerto 3000
+info: 2020-06-09T23:48:13.868Z escuchando en el puerto 3000
+info: 2020-06-09T23:48:19.334Z escuchando en el puerto 3000
+info: 2020-06-09T23:49:36.415Z escuchando en el puerto 3000
+info: 2020-06-09T23:49:43.284Z escuchando en el puerto 3000
+info: 2020-06-09T23:49:52.873Z escuchando en el puerto 3000
+info: 2020-06-09T23:49:56.950Z escuchando en el puerto 3000
+info: 2020-06-09T23:50:18.848Z escuchando en el puerto 3000
+info: 2020-06-09T23:50:23.924Z escuchando en el puerto 3000
+info: 2020-06-09T23:50:30.235Z escuchando en el puerto 3000
+info: 2020-06-09T23:50:36.151Z escuchando en el puerto 3000
+info: 2020-06-09T23:50:44.118Z escuchando en el puerto 3000
+info: 2020-06-09T23:50:57.849Z escuchando en el puerto 3000
+info: 2020-06-09T23:51:00.102Z escuchando en el puerto 3000
+info: 2020-06-09T23:51:09.604Z escuchando en el puerto 3000
+info: 2020-06-09T23:51:12.773Z escuchando en el puerto 3000
+info: 2020-06-09T23:51:21.115Z escuchando en el puerto 3000
+info: 2020-06-09T23:51:27.607Z escuchando en el puerto 3000
+info: 2020-06-09T23:51:50.503Z escuchando en el puerto 3000
+info: 2020-06-09T23:52:01.633Z escuchando en el puerto 3000
+info: 2020-06-09T23:52:03.400Z escuchando en el puerto 3000
+info: 2020-06-09T23:52:12.746Z escuchando en el puerto 3000
+info: 2020-06-09T23:52:22.176Z escuchando en el puerto 3000
+info: 2020-06-09T23:52:32.272Z escuchando en el puerto 3000
+info: 2020-06-09T23:52:36.727Z escuchando en el puerto 3000
+info: 2020-06-09T23:53:00.007Z escuchando en el puerto 3000
+info: 2020-06-09T23:53:10.219Z escuchando en el puerto 3000
+info: 2020-06-09T23:53:23.359Z escuchando en el puerto 3000
+info: 2020-06-09T23:53:29.419Z escuchando en el puerto 3000
+info: 2020-06-09T23:53:40.467Z escuchando en el puerto 3000
+info: 2020-06-09T23:54:26.957Z escuchando en el puerto 3000

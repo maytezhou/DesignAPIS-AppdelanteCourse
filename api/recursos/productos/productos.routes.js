@@ -77,29 +77,42 @@ productosRouter.get('/:id', validarId, (req, res) => { // para  obtener un prodc
 
 
 // Reemplaza completamente un recurso con un recurso nuevo
-productosRouter.put('/:id', [jwtAuthenticate, validarProducto], (req, res) => { //  para  modificar un producto del array de productos
-    let reemplazoParaProducto = {
-        ...req.body,
-        id: req.params.id,
-        dueño: req.user.username
-    }
-    let indice = _.findIndex(productos, producto => producto.id == reemplazoParaProducto.id)
-    if (indice !== -1) { // si el producto existe
-        if (productos[indice].dueño !== reemplazoParaProducto.dueño) {
-            log.info(`Usuario ${req.user.username}  no es dueño de producto con id ${reemplazoParaProducto.id}.
-            Dueño real es ${productos[indice].dueño}.Request no será procesado`)
-            res.status(401).send(`No eres dueño del producto con id  ${reemplazoParaProducto.id}. Solo puedes modificar productos creados por ti`)
-            return
-        }
-        productos[indice] = reemplazoParaProducto
-        log.info(`Producto con id [${reemplazoParaProducto.id}] reemplazado con nuevo producto`, reemplazoParaProducto);
-        res.status(200).json(reemplazoParaProducto)
-    } else {
-        res.status(404).send(`El Producto con id [
-        ${reemplazoParaProducto.id}] no existe`)
+productosRouter.put('/:id', [jwtAuthenticate, validarProducto], async (req, res) => { //  para  modificar un producto del array de productos
 
-
+    let id = req.params.id
+    let requestUsuario = req.user.username
+    let productoAReemplazar
+    try {
+        productoAReemplazar = await productoController.obtenerProducto(id)
+    } catch (err) {
+        log.error(`Excepción ocurrió  al procesar la modificación del producto con [${id}]`, err)
+        res.status(500).send(`Error ocurrió modificando producto con id [${id}]`)
+        return
     }
+
+    if (!productoAReemplazar) {
+        res.status(400).send(`El producto con id [${id}] no existe`)
+        return
+    }
+
+    //si el producto si existe
+
+    if (productoAReemplazar.dueño !== requestUsuario) {
+        log.warn(`Usuario ${requestUsuario}  no es dueño de producto con id ${id}.
+        Dueño real es ${productoAReemplazar.dueño}.Request no será procesado`)
+        res.status(401).send(`No eres dueño del producto con id [${id}].Solo puedes modificar productos creados por ti `)
+        return
+    }
+
+    productoController.reemplazoParaProducto(id, req.body, requestUsuario)
+        .then((producto) => {
+            res.json(producto)
+            log.info(`Producto con [${id}] reemplazado con nuevo producto `, producto)
+        })
+        .catch(err => {
+            log.error(`Excepción al tratar de reemplazar producto con id [${id}]`, err)
+            res.status(500).send(`Error ocurrió reemplazando  producto con id [${id}]`)
+        })
 })
 
 
