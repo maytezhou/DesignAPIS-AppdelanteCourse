@@ -4945,3 +4945,131 @@ info: 2020-06-09T22:01:20.305Z escuchando en el puerto 3000
 info: 2020-06-09T22:01:41.002Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beebhfgfdfsds---- HTTP/1.1 500 1999 - 2.823 ms
 info: 2020-06-09T22:02:03.733Z escuchando en el puerto 3000
 info: 2020-06-09T22:02:09.540Z escuchando en el puerto 3000
+info: 2020-06-09T22:02:14.641Z escuchando en el puerto 3000
+info: 2020-06-09T22:02:19.845Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beebhfgfdfsds---- HTTP/1.1 400 82 - 2.113 ms
+info: 2020-06-09T22:03:06.734Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beeb HTTP/1.1 200 115 - 18.586 ms
+info: 2020-06-09T22:03:13.666Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beebefffhghj----- HTTP/1.1 400 82 - 0.386 ms
+error: 2020-06-09T22:08:53.013Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.controller.js:19
+ module.exports={
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.controller.js:19\n module.exports={\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 17:08:52 GMT-0500 (GMT-05:00)","process":{"pid":8492,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99348480,"heapTotal":69627904,"heapUsed":40167352,"external":24691031}},"os":{"loadavg":[0,0,0],"uptime":466033},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-09T22:09:01.021Z escuchando en el puerto 3000
+info: 2020-06-09T22:09:06.309Z escuchando en el puerto 3000
+info: 2020-06-09T22:09:11.249Z escuchando en el puerto 3000
+error: 2020-06-09T22:09:14.317Z uncaughtException: Unexpected token '}'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.controller.js:20
+ }
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.controller.js:20\n }\r\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 17:09:14 GMT-0500 (GMT-05:00)","process":{"pid":7532,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98852864,"heapTotal":68657152,"heapUsed":40250472,"external":24692811}},"os":{"loadavg":[0,0,0],"uptime":466054},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-09T22:09:18.506Z escuchando en el puerto 3000
+info: 2020-06-09T22:09:20.706Z escuchando en el puerto 3000
+info: 2020-06-09T22:09:24.068Z escuchando en el puerto 3000
+info: 2020-06-09T22:09:28.646Z escuchando en el puerto 3000
+info: 2020-06-09T22:11:17.041Z escuchando en el puerto 3000
+info: 2020-06-09T22:11:27.147Z escuchando en el puerto 3000
+error: 2020-06-09T22:11:30.398Z uncaughtException: vali is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:1
+ReferenceError: vali is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:106:49)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:1\nReferenceError: vali is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:106:49)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 17:11:30 GMT-0500 (GMT-05:00)","process":{"pid":18724,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98988032,"heapTotal":69672960,"heapUsed":39551208,"external":24576393}},"os":{"loadavg":[0,0,0],"uptime":466191},"trace":[{"column":49,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js","function":null,"line":106,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-09T22:11:32.175Z escuchando en el puerto 3000
+info: 2020-06-09T22:11:48.791Z escuchando en el puerto 3000
+info: 2020-06-09T22:11:51.934Z escuchando en el puerto 3000
+info: 2020-06-09T22:12:02.506Z escuchando en el puerto 3000
+info: 2020-06-09T22:12:32.091Z escuchando en el puerto 3000
+info: 2020-06-09T22:15:05.570Z escuchando en el puerto 3000
+info: 2020-06-09T22:15:13.651Z escuchando en el puerto 3000
+info: 2020-06-09T22:15:29.246Z escuchando en el puerto 3000
+info: 2020-06-09T22:15:37.624Z escuchando en el puerto 3000
+info: 2020-06-09T22:15:47.488Z escuchando en el puerto 3000
+info: 2020-06-09T22:15:58.456Z escuchando en el puerto 3000
+info: 2020-06-09T22:16:02.068Z escuchando en el puerto 3000
+info: 2020-06-09T22:16:05.832Z escuchando en el puerto 3000
+info: 2020-06-09T22:16:15.912Z escuchando en el puerto 3000
+info: 2020-06-09T22:16:45.018Z escuchando en el puerto 3000
+info: 2020-06-09T22:16:54.742Z escuchando en el puerto 3000
+info: 2020-06-09T22:17:03.656Z escuchando en el puerto 3000
+info: 2020-06-09T22:17:06.870Z escuchando en el puerto 3000
+info: 2020-06-09T22:17:23.956Z escuchando en el puerto 3000
+info: 2020-06-09T22:18:31.932Z escuchando en el puerto 3000
+info: 2020-06-09T22:18:34.114Z escuchando en el puerto 3000
+info: 2020-06-09T22:18:38.830Z escuchando en el puerto 3000
+info: 2020-06-09T22:18:43.405Z escuchando en el puerto 3000
+info: 2020-06-09T22:18:46.743Z escuchando en el puerto 3000
+info: 2020-06-09T22:18:50.235Z escuchando en el puerto 3000
+info: 2020-06-09T22:19:09.363Z escuchando en el puerto 3000
+info: 2020-06-09T22:19:42.202Z escuchando en el puerto 3000
+info: 2020-06-09T22:22:32.265Z escuchando en el puerto 3000
+info: 2020-06-09T22:22:37.265Z escuchando en el puerto 3000
+info: 2020-06-09T22:22:39.229Z escuchando en el puerto 3000
+info: 2020-06-09T22:22:41.854Z escuchando en el puerto 3000
+info: 2020-06-09T22:22:51.758Z escuchando en el puerto 3000
+info: 2020-06-09T22:23:18.205Z escuchando en el puerto 3000
+info: 2020-06-09T22:23:33.815Z escuchando en el puerto 3000
+info: 2020-06-09T22:23:37.203Z escuchando en el puerto 3000
+info: 2020-06-09T22:23:42.918Z escuchando en el puerto 3000
+info: 2020-06-09T22:24:33.126Z escuchando en el puerto 3000
+info: 2020-06-09T22:24:42.358Z escuchando en el puerto 3000
+info: 2020-06-09T22:24:48.522Z escuchando en el puerto 3000
+info: 2020-06-09T22:24:50.481Z escuchando en el puerto 3000
+info: 2020-06-09T22:24:58.089Z escuchando en el puerto 3000
+info: 2020-06-09T22:25:23.955Z escuchando en el puerto 3000
+info: 2020-06-09T22:25:27.547Z escuchando en el puerto 3000
+info: 2020-06-09T22:25:32.258Z escuchando en el puerto 3000
+info: 2020-06-09T22:25:34.689Z escuchando en el puerto 3000
+info: 2020-06-09T22:26:03.381Z escuchando en el puerto 3000
+info: 2020-06-09T22:26:31.719Z escuchando en el puerto 3000
+info: 2020-06-09T22:26:34.920Z escuchando en el puerto 3000
+info: 2020-06-09T22:26:54.803Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:06.437Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:14.719Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:21.073Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:24.142Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:26.961Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:29.947Z escuchando en el puerto 3000
+info: 2020-06-09T22:27:31.556Z escuchando en el puerto 3000
+info: 2020-06-09T22:29:44.579Z escuchando en el puerto 3000
+info: 2020-06-09T22:29:48.938Z escuchando en el puerto 3000
+info: 2020-06-09T22:29:54.211Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:01.552Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:08.180Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:09.788Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:14.048Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:16.436Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:18.288Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:30.873Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:34.250Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:41.403Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:49.077Z escuchando en el puerto 3000
+info: 2020-06-09T22:30:56.132Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:03.020Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:07.749Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:14.062Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:19.191Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:21.537Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:27.552Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:29.448Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:38.616Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:43.190Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:47.600Z escuchando en el puerto 3000
+info: 2020-06-09T22:31:58.370Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:02.418Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:36.627Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:40.800Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:44.811Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:49.763Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:51.706Z escuchando en el puerto 3000
+info: 2020-06-09T22:32:54.489Z escuchando en el puerto 3000
+info: 2020-06-09T22:33:11.599Z escuchando en el puerto 3000
+info: 2020-06-09T22:33:16.678Z escuchando en el puerto 3000
+info: 2020-06-09T22:33:22.711Z escuchando en el puerto 3000
+info: 2020-06-09T22:33:29.251Z escuchando en el puerto 3000
+info: 2020-06-09T22:33:33.028Z escuchando en el puerto 3000

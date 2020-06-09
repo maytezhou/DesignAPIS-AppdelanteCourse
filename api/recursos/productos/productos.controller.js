@@ -15,8 +15,12 @@ const Producto = require('./producto.model')
  function obtenerProducto (id){
  return Producto.findById(id)
  }
+ function borrarProducto (id){
+return Producto.findByIdAndRemove(id)
+ }
  module.exports={
      crearProducto,
      obtenerProductos,
-     obtenerProducto
+     obtenerProducto,
+     borrarProducto
  }
