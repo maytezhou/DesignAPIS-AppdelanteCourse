@@ -4721,3 +4721,197 @@ info: 2020-06-08T21:56:45.231Z escuchando en el puerto 3000
 info: 2020-06-08T21:57:22.626Z escuchando en el puerto 3000
 info: 2020-06-08T21:57:29.925Z escuchando en el puerto 3000
 info: 2020-06-08T21:57:44.575Z escuchando en el puerto 3000
+info: 2020-06-08T21:57:47.446Z escuchando en el puerto 3000
+info: 2020-06-08T22:03:40.834Z escuchando en el puerto 3000
+error: 2020-06-08T22:03:54.021Z uncaughtException: The 'request' argument must be string. Received type undefined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:1
+TypeError [ERR_INVALID_ARG_TYPE]: The 'request' argument must be string. Received type undefined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:10:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:1\nTypeError [ERR_INVALID_ARG_TYPE]: The 'request' argument must be string. Received type undefined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:10:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 17:03:53 GMT-0500 (GMT-05:00)","process":{"pid":5976,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98758656,"heapTotal":69410816,"heapUsed":38808992,"external":24560689}},"os":{"loadavg":[0,0,0],"uptime":379334},"trace":[{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js","function":null,"line":10,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-08T22:03:59.547Z uncaughtException: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:1
+Error: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:10:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:1\nError: Cannot find module './'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:10:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Mon Jun 08 2020 17:03:59 GMT-0500 (GMT-05:00)","process":{"pid":19256,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98963456,"heapTotal":69410816,"heapUsed":38801600,"external":24543221}},"os":{"loadavg":[0,0,0],"uptime":379340},"trace":[{"column":18,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js","function":null,"line":10,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-08T22:04:01.574Z escuchando en el puerto 3000
+info: 2020-06-08T22:04:08.309Z escuchando en el puerto 3000
+info: 2020-06-08T22:04:11.323Z escuchando en el puerto 3000
+info: 2020-06-08T22:04:14.265Z escuchando en el puerto 3000
+info: 2020-06-08T22:04:25.429Z escuchando en el puerto 3000
+info: 2020-06-08T22:04:28.229Z escuchando en el puerto 3000
+info: 2020-06-08T22:04:30.806Z escuchando en el puerto 3000
+info: 2020-06-08T22:06:19.987Z escuchando en el puerto 3000
+info: 2020-06-08T22:06:28.262Z escuchando en el puerto 3000
+info: 2020-06-08T22:06:30.938Z escuchando en el puerto 3000
+info: 2020-06-08T22:06:41.457Z escuchando en el puerto 3000
+info: 2020-06-08T22:07:01.917Z escuchando en el puerto 3000
+info: 2020-06-08T22:07:06.966Z escuchando en el puerto 3000
+info: 2020-06-08T22:07:10.246Z escuchando en el puerto 3000
+info: 2020-06-08T22:07:46.277Z escuchando en el puerto 3000
+info: 2020-06-08T22:07:49.948Z escuchando en el puerto 3000
+info: 2020-06-08T22:07:54.136Z escuchando en el puerto 3000
+info: 2020-06-08T22:08:21.040Z escuchando en el puerto 3000
+info: 2020-06-08T22:08:26.258Z escuchando en el puerto 3000
+info: 2020-06-08T22:08:46.191Z escuchando en el puerto 3000
+info: 2020-06-08T22:08:48.380Z escuchando en el puerto 3000
+info: 2020-06-08T22:08:50.775Z escuchando en el puerto 3000
+info: 2020-06-08T22:09:40.912Z escuchando en el puerto 3000
+info: 2020-06-08T22:09:43.143Z escuchando en el puerto 3000
+info: 2020-06-08T22:09:58.928Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:01.076Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:09.150Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:17.364Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:28.021Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:45.952Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:49.220Z escuchando en el puerto 3000
+info: 2020-06-08T22:10:57.263Z escuchando en el puerto 3000
+info: 2020-06-08T22:11:02.840Z escuchando en el puerto 3000
+info: 2020-06-08T22:11:44.587Z escuchando en el puerto 3000
+info: 2020-06-08T22:11:51.635Z escuchando en el puerto 3000
+info: 2020-06-08T22:13:16.568Z escuchando en el puerto 3000
+info: 2020-06-08T22:13:21.316Z escuchando en el puerto 3000
+info: 2020-06-09T16:03:50.030Z escuchando en el puerto 3000
+info: 2020-06-09T16:09:47.387Z escuchando en el puerto 3000
+info: 2020-06-09T16:10:16.414Z escuchando en el puerto 3000
+info: 2020-06-09T16:10:21.186Z escuchando en el puerto 3000
+info: 2020-06-09T16:11:30.645Z escuchando en el puerto 3000
+info: 2020-06-09T16:11:35.313Z escuchando en el puerto 3000
+info: 2020-06-09T16:11:39.457Z escuchando en el puerto 3000
+info: 2020-06-09T16:11:51.886Z escuchando en el puerto 3000
+info: 2020-06-09T16:12:00.181Z escuchando en el puerto 3000
+info: 2020-06-09T16:12:10.546Z escuchando en el puerto 3000
+info: 2020-06-09T16:12:18.419Z escuchando en el puerto 3000
+info: 2020-06-09T16:12:26.065Z escuchando en el puerto 3000
+info: 2020-06-09T16:13:22.051Z escuchando en el puerto 3000
+info: 2020-06-09T16:14:23.132Z escuchando en el puerto 3000
+info: 2020-06-09T16:20:28.328Z escuchando en el puerto 3000
+info: 2020-06-09T16:20:31.933Z escuchando en el puerto 3000
+info: 2020-06-09T16:20:38.694Z escuchando en el puerto 3000
+info: 2020-06-09T16:21:26.513Z escuchando en el puerto 3000
+info: 2020-06-09T16:21:31.449Z escuchando en el puerto 3000
+info: 2020-06-09T16:21:38.335Z escuchando en el puerto 3000
+info: 2020-06-09T16:21:47.362Z escuchando en el puerto 3000
+info: 2020-06-09T16:21:50.281Z escuchando en el puerto 3000
+info: 2020-06-09T16:21:54.044Z escuchando en el puerto 3000
+info: 2020-06-09T16:22:24.084Z escuchando en el puerto 3000
+info: 2020-06-09T16:23:44.689Z escuchando en el puerto 3000
+error: 2020-06-09T16:23:52.806Z uncaughtException: Unexpected token '}'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.controller.js:13
+ }
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.controller.js:13\n }\r\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 11:23:52 GMT-0500 (GMT-05:00)","process":{"pid":20080,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99049472,"heapTotal":69365760,"heapUsed":40199816,"external":24683863}},"os":{"loadavg":[0,0,0],"uptime":445333},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-09T16:23:58.402Z escuchando en el puerto 3000
+info: 2020-06-09T16:24:10.385Z escuchando en el puerto 3000
+info: 2020-06-09T16:24:16.468Z escuchando en el puerto 3000
+info: 2020-06-09T16:24:47.775Z escuchando en el puerto 3000
+info: 2020-06-09T16:25:02.491Z escuchando en el puerto 3000
+info: 2020-06-09T16:25:09.400Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:18.838Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:20.878Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:23.500Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:29.365Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:31.884Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:38.356Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:47.471Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:49.685Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:52.286Z escuchando en el puerto 3000
+info: 2020-06-09T16:36:54.982Z escuchando en el puerto 3000
+info: 2020-06-09T16:37:06.164Z escuchando en el puerto 3000
+info: 2020-06-09T16:37:11.671Z escuchando en el puerto 3000
+info: 2020-06-09T16:37:30.743Z escuchando en el puerto 3000
+info: 2020-06-09T16:37:37.323Z escuchando en el puerto 3000
+info: 2020-06-09T16:37:48.316Z escuchando en el puerto 3000
+info: 2020-06-09T16:38:02.201Z escuchando en el puerto 3000
+info: 2020-06-09T16:38:07.731Z escuchando en el puerto 3000
+info: 2020-06-09T16:39:56.608Z escuchando en el puerto 3000
+info: 2020-06-09T16:43:04.688Z ::1 - POST /usuarios HTTP/1.1 201 27 - 798.668 ms
+info: 2020-06-09T16:43:52.795Z Usuario daniel completó autenticación exitosamente
+info: 2020-06-09T16:43:52.825Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 625.868 ms
+info: 2020-06-09T16:44:21.310Z ::1 - GET /productos HTTP/1.1 200 2 - 13.406 ms
+info: 2020-06-09T16:45:37.488Z Usuario daniel suministró un token válido. Auntenticación completada
+error: 2020-06-09T16:45:37.769Z Producto no pudo ser creadonuevoProducto is not defined {"stack":"ReferenceError: nuevoProducto is not defined\n    at C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:38:71\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-06-09T16:45:37.812Z ::1 - POST /productos/ HTTP/1.1 500 45 - 289.470 ms
+info: 2020-06-09T16:46:16.753Z escuchando en el puerto 3000
+info: 2020-06-09T16:46:28.240Z escuchando en el puerto 3000
+info: 2020-06-09T16:46:31.322Z escuchando en el puerto 3000
+info: 2020-06-09T17:01:52.251Z JWT token no es válido. Usuario con id  82d383e5-4789-4746-95f2-16890b490395 no  existe
+info: 2020-06-09T17:01:52.276Z ::1 - POST /productos/ HTTP/1.1 401 - - 8.359 ms
+info: 2020-06-09T17:02:11.202Z ::1 - POST /usuarios HTTP/1.1 201 27 - 546.793 ms
+info: 2020-06-09T17:02:21.069Z Usuario daniel completó autenticación exitosamente
+info: 2020-06-09T17:02:21.071Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 551.051 ms
+info: 2020-06-09T17:02:34.094Z ::1 - GET /productos HTTP/1.1 200 116 - 350.553 ms
+info: 2020-06-09T17:03:27.317Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-09T17:03:27.344Z Producto agregado a la colección de productos {"$__":{"strictMode":true,"inserting":true,"getters":{},"_id":"5edfc0dfc9e4c01ef4c4beeb","wasPopulated":false,"activePaths":{"paths":{"dueño":"require","moneda":"require","precio":"require","titulo":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"dueño":true,"moneda":true,"precio":true,"titulo":true}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"session":null,"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{},"validating":null},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5edfc0dfc9e4c01ef4c4beeb","titulo":"Mack Book Pro2","precio":2005,"moneda":"USD","dueño":"daniel","__v":0}}
+info: 2020-06-09T17:03:27.346Z ::1 - POST /productos/ HTTP/1.1 201 115 - 29.082 ms
+info: 2020-06-09T17:03:34.906Z ::1 - GET /productos HTTP/1.1 200 232 - 2.931 ms
+info: 2020-06-09T17:05:30.169Z escuchando en el puerto 3000
+info: 2020-06-09T17:05:30.987Z ::1 - GET /productos HTTP/1.1 200 232 - 26.610 ms
+error: 2020-06-09T17:10:16.698Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.controller.js:16
+ module.exports={
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.controller.js:16\n module.exports={\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 12:10:16 GMT-0500 (GMT-05:00)","process":{"pid":12868,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98930688,"heapTotal":69103616,"heapUsed":40340472,"external":24683443}},"os":{"loadavg":[0,0,0],"uptime":448117},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-09T17:10:21.920Z uncaughtException: Unexpected identifier
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.controller.js:16
+ module.exports={
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.controller.js:16\n module.exports={\r\n\nSyntaxError: Unexpected identifier\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 12:10:21 GMT-0500 (GMT-05:00)","process":{"pid":1292,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98734080,"heapTotal":69410816,"heapUsed":39460240,"external":24652565}},"os":{"loadavg":[0,0,0],"uptime":448122},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-09T17:10:26.235Z escuchando en el puerto 3000
+info: 2020-06-09T17:10:32.669Z escuchando en el puerto 3000
+info: 2020-06-09T17:10:38.898Z escuchando en el puerto 3000
+info: 2020-06-09T17:10:43.388Z escuchando en el puerto 3000
+info: 2020-06-09T17:10:47.834Z escuchando en el puerto 3000
+info: 2020-06-09T17:17:48.197Z escuchando en el puerto 3000
+info: 2020-06-09T17:17:57.006Z escuchando en el puerto 3000
+info: 2020-06-09T17:18:05.190Z escuchando en el puerto 3000
+info: 2020-06-09T17:18:11.934Z escuchando en el puerto 3000
+info: 2020-06-09T17:18:20.897Z escuchando en el puerto 3000
+info: 2020-06-09T17:18:41.348Z escuchando en el puerto 3000
+info: 2020-06-09T17:18:53.423Z escuchando en el puerto 3000
+info: 2020-06-09T17:18:56.580Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:06.421Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:12.501Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:17.591Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:32.805Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:36.774Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:43.638Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:53.151Z escuchando en el puerto 3000
+info: 2020-06-09T17:19:56.587Z escuchando en el puerto 3000
+info: 2020-06-09T17:20:06.762Z escuchando en el puerto 3000
+info: 2020-06-09T17:20:15.236Z escuchando en el puerto 3000
+info: 2020-06-09T17:20:30.368Z escuchando en el puerto 3000
+info: 2020-06-09T17:20:42.636Z escuchando en el puerto 3000
+info: 2020-06-09T17:20:57.457Z escuchando en el puerto 3000
+info: 2020-06-09T17:21:12.365Z escuchando en el puerto 3000
+info: 2020-06-09T17:21:15.339Z escuchando en el puerto 3000
+info: 2020-06-09T17:21:18.981Z escuchando en el puerto 3000
+info: 2020-06-09T17:21:22.959Z escuchando en el puerto 3000
+info: 2020-06-09T17:21:53.224Z escuchando en el puerto 3000
+info: 2020-06-09T17:21:58.647Z escuchando en el puerto 3000
+info: 2020-06-09T17:22:08.369Z escuchando en el puerto 3000
+info: 2020-06-09T17:22:15.481Z escuchando en el puerto 3000
+info: 2020-06-09T17:22:51.503Z escuchando en el puerto 3000
+info: 2020-06-09T21:45:26.022Z escuchando en el puerto 3000
+info: 2020-06-09T21:45:44.176Z ::1 - GET /productos HTTP/1.1 200 232 - 15.436 ms
+info: 2020-06-09T21:46:19.209Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beeb HTTP/1.1 200 115 - 5.145 ms
+info: 2020-06-09T21:46:37.013Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beea HTTP/1.1 404 55 - 1.843 ms
+info: 2020-06-09T21:46:41.236Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beeb HTTP/1.1 200 115 - 2.630 ms
+error: 2020-06-09T21:47:50.630Z Excepción ocurrió al tratar de obtener el Producto con id [5edfc0dfc9e4c01ef4c4beebhfgfdfsds----]Cast to ObjectId failed for value "5edfc0dfc9e4c01ef4c4beebhfgfdfsds----" at path "_id" for model "producto" {"stringValue":"\"5edfc0dfc9e4c01ef4c4beebhfgfdfsds----\"","kind":"ObjectId","value":"5edfc0dfc9e4c01ef4c4beebhfgfdfsds----","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5edfc0dfc9e4c01ef4c4beebhfgfdfsds----\" at path \"_id\" for model \"producto\"\n    at model.Query.exec (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:57:7\n    at Layer.handle [as handle_request] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:317:13)"}
+info: 2020-06-09T21:47:50.632Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beebhfgfdfsds---- HTTP/1.1 500 94 - 18.889 ms
