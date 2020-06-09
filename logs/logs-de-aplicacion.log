@@ -4915,3 +4915,33 @@ info: 2020-06-09T21:46:37.013Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beea HTT
 info: 2020-06-09T21:46:41.236Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beeb HTTP/1.1 200 115 - 2.630 ms
 error: 2020-06-09T21:47:50.630Z Excepción ocurrió al tratar de obtener el Producto con id [5edfc0dfc9e4c01ef4c4beebhfgfdfsds----]Cast to ObjectId failed for value "5edfc0dfc9e4c01ef4c4beebhfgfdfsds----" at path "_id" for model "producto" {"stringValue":"\"5edfc0dfc9e4c01ef4c4beebhfgfdfsds----\"","kind":"ObjectId","value":"5edfc0dfc9e4c01ef4c4beebhfgfdfsds----","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5edfc0dfc9e4c01ef4c4beebhfgfdfsds----\" at path \"_id\" for model \"producto\"\n    at model.Query.exec (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:57:7\n    at Layer.handle [as handle_request] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:317:13)"}
 info: 2020-06-09T21:47:50.632Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beebhfgfdfsds---- HTTP/1.1 500 94 - 18.889 ms
+info: 2020-06-09T21:49:34.215Z escuchando en el puerto 3000
+error: 2020-06-09T21:50:54.146Z uncaughtException: validarId is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:1
+ReferenceError: validarId is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:54:28)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:1\nReferenceError: validarId is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:54:28)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Tue Jun 09 2020 16:50:54 GMT-0500 (GMT-05:00)","process":{"pid":5808,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98799616,"heapTotal":69181440,"heapUsed":40861608,"external":24689635}},"os":{"loadavg":[0,0,0],"uptime":464954},"trace":[{"column":28,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js","function":null,"line":54,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-09T21:52:05.530Z escuchando en el puerto 3000
+info: 2020-06-09T21:52:13.723Z escuchando en el puerto 3000
+info: 2020-06-09T21:52:40.442Z escuchando en el puerto 3000
+info: 2020-06-09T21:54:32.912Z escuchando en el puerto 3000
+info: 2020-06-09T21:54:37.283Z escuchando en el puerto 3000
+info: 2020-06-09T21:55:19.252Z escuchando en el puerto 3000
+info: 2020-06-09T21:56:34.108Z escuchando en el puerto 3000
+info: 2020-06-09T21:56:43.330Z escuchando en el puerto 3000
+info: 2020-06-09T21:56:59.845Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:02.401Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:32.402Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:40.707Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:47.416Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:52.266Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:54.691Z escuchando en el puerto 3000
+info: 2020-06-09T21:57:59.358Z escuchando en el puerto 3000
+info: 2020-06-09T21:58:01.705Z escuchando en el puerto 3000
+info: 2020-06-09T21:58:05.181Z escuchando en el puerto 3000
+info: 2020-06-09T21:58:19.680Z escuchando en el puerto 3000
+info: 2020-06-09T22:01:20.305Z escuchando en el puerto 3000
+info: 2020-06-09T22:01:41.002Z ::1 - GET /productos/5edfc0dfc9e4c01ef4c4beebhfgfdfsds---- HTTP/1.1 500 1999 - 2.823 ms
+info: 2020-06-09T22:02:03.733Z escuchando en el puerto 3000
+info: 2020-06-09T22:02:09.540Z escuchando en el puerto 3000

@@ -17,7 +17,14 @@ const productos = require('./../../../database').productos;
 // crear un router de express
 var productosRouter = express.Router() // no es una applicación de express (app), es un mini objeto que vamos a integrar con nuestra aplicacion express
 
-
+function validarId (req,res,next){ // middleware
+let id= req.params.id
+if(id.match(/^[a-fA-F0-9]{24}$/) === null){
+res.status(400).send(`El id [${id}] suministrado en el URL no es válido`)
+return
+}
+next()
+}
 
 // productosRouter reemplaza a app
 productosRouter.get('/', (req, res) => { // obtener recursos
@@ -51,7 +58,7 @@ productosRouter.post('/', [jwtAuthenticate, validarProducto], (req, res) => { //
 // en la ruta se colocara el id del prodcucto como parametro
 // todos los requests que vayan a este url 
 
-productosRouter.get('/:id',(req, res) => { // para  obtener un prodcuto del array de productos // puede ser una llamada Publica
+productosRouter.get('/:id',validarId,(req, res) => { // para  obtener un prodcuto del array de productos // puede ser una llamada Publica
      let id =req.params.id
      productoController.obtenerProducto(id)
      .then(producto =>{
