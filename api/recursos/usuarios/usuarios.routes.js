@@ -16,6 +16,17 @@ const usuarioController = require('./usuarios.controller')
 const usuariosRouter = express.Router()
 
 const salt = bcrypt.genSaltSync(10);
+
+
+function transformarBodyALowerCase(req, res, next) {
+  req.body.username && (req.body.username = req.body.username.toLowerCase())
+  req.body.email && (req.body.email = req.body.email.toLowerCase())
+  next()
+}
+
+
+
+
 // ruta solo para desarrollo          no  la tendremos en produccion 
 // GET /usuarios/
 // ruta basica
@@ -32,7 +43,7 @@ usuariosRouter.get('/', (req, res) => {
 
 
 //ruta para crear usuarios
-usuariosRouter.post('/', validarUsuario, (req, res) => {
+usuariosRouter.post('/', [validarUsuario, transformarBodyALowerCase], (req, res) => {
   let nuevoUsuario = req.body
   usuarioController.usuarioExiste(nuevoUsuario.username, nuevoUsuario.email)
     .then((usuarioExiste) => {
@@ -52,7 +63,7 @@ usuariosRouter.post('/', validarUsuario, (req, res) => {
 
         usuarioController.crearUsuario(nuevoUsuario, hashedPassword)
           .then((nuevoUsuario) => {
-            res.status(201).send('Usuario creado exitósamente')              
+            res.status(201).send('Usuario creado exitósamente')
           })
           .catch(err => {
             log.error('Error ocurrio al tratar de crear un nuevo usuario', err)
@@ -73,8 +84,23 @@ usuariosRouter.post('/', validarUsuario, (req, res) => {
 
 
 // ruta para login 
-usuariosRouter.post('/login', validarPedidoDeLogin, (req, res) => {
+usuariosRouter.post('/login', [validarUsuario, transformarBodyALowerCase], async (req, res) => {
   let usuarioNoAutenticado = req.body
+  let usuarioRegistrado
+  try {
+    usuarioRegistrado = await usuarioController.obtenerUsuario({
+      username:usuarioNoAutenticado.username
+    })
+  }
+  catch(err){
+    log.error(`Error ocurrio al tratar de determinar  si el usuario [${usuarioNoAutenticado.username}] ya existe`, err)
+    res.status(500).send('Error ocurrió durante el proceso de login')
+    return
+  }
+
+
+
+
   let index = _.findIndex(usuarios, (usuario) => usuario.username === usuarioNoAutenticado.username)
   if (index === -1) {
     log.info(`Usuario ${usuarioNoAutenticado.username} no existe. No pudo ser auntenticado`)

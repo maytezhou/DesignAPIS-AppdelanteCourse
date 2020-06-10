@@ -21,11 +21,19 @@ return new Promise((resolve,reject)=>{
     })
 })
 
-
+ function obtenerUsuario ({
+    username: username,
+    id:id
+}) {
+   if (username) return Usuario.findOne({ username : username})
+   if (id) return Usuario.findById(id)
+   throw new Error ("Función obtener usuario del controller fue llamada sin especificar username o id")
+ }
 
 }
 module.exports ={
     obtenerUsuarios,
     crearUsuario,
-    usuarioExiste
+    usuarioExiste,
+    obtenerUsuario
 }
