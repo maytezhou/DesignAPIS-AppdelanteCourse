@@ -24,7 +24,7 @@ usuariosRouter.get('/', (req, res) => {
     .then((usuarios) => {
       res.json(usuarios)
     })
-    .catch(err=>{
+    .catch(err => {
       log.error('Error al obtener todos los usuarios', err)
       res.sendStatus(500)
     })
@@ -34,32 +34,41 @@ usuariosRouter.get('/', (req, res) => {
 //ruta para crear usuarios
 usuariosRouter.post('/', validarUsuario, (req, res) => {
   let nuevoUsuario = req.body
-  let indice = _.findIndex(usuarios, usuario => { // retorna el indice del objeto usuario en caso el usuario y el email ingresado ya exista  en caso no exista retorna -1 
-    return usuario.username === nuevoUsuario.username || usuario.email === nuevoUsuario.email
-  })
-  if (indice !== -1) {
-    // conflict // ya existe una entidad o un resource con la informacion obtenida en el request 
-    log.info('Email o username ya existen en la base de datos')
-    res.status(409).send("El email o username ya estan asociados a una cuenta.")
-    return
-  }
+  usuarioController.usuarioExiste(nuevoUsuario.username, nuevoUsuario.email)
+    .then((usuarioExiste) => {
+      if (usuarioExiste) { // si el usuario ya existe en la base de datos
+        // conflict // ya existe una entidad o un resource con la informacion obtenida en el request 
+        log.info('Email o username ya existen en la base de datos')
+        res.status(409).send("El email o username ya estan asociados a una cuenta.")
+        return
+      }
+      // si el usuario no existe en la base de datos 
+      bcrypt.hash(nuevoUsuario.password, salt, null, (err, hashedPassword) => {
+        if (err) {
+          log.error('Error ocurrio al tratar de obtener el hash de una contraseña', err)
+          res.status(500).send('Ocurrio un error procesando creación de usuario')
+          return
+        }
 
-  bcrypt.hash(nuevoUsuario.password, salt, null, (err, hashedPassword) => {
-    if (err) {
-      log.error('Error ocurrio al tratar de obtener el hash de una contraseña', err)
-      res.status(500).send('Ocurrio un error procesando creación de usuario')
+        usuarioController.crearUsuario(nuevoUsuario, hashedPassword)
+          .then((nuevoUsuario) => {
+            res.status(201).send('Usuario creado exitósamente')              
+          })
+          .catch(err => {
+            log.error('Error ocurrio al tratar de crear un nuevo usuario', err)
+            res.status(500).send('Error ocurrió al tratar de crear un  nuevo usuario')
+            return
+          })
+      })
+    })
+    .catch(err => {
+      log.error(`Error ocurrió al tratar de  verificar si el usuario [${nuevoUsuario.username}] con email
+  [${nuevoUsuario.email}]  ya existe`)
+      res.status(500).send('Error ocurrió al tratar de crear un nuevo usuario')
       return
-    }
-
-    usuarios.push({
-      username: nuevoUsuario.username,
-      email: nuevoUsuario.email,
-      password: hashedPassword,
-      id: uuidv4()
     })
 
-    res.status(201).send('Usuario creado exitosamente')
-  })
+
 })
 
 
