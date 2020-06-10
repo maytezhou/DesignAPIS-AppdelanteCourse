@@ -5178,3 +5178,84 @@ info: 2020-06-09T23:53:23.359Z escuchando en el puerto 3000
 info: 2020-06-09T23:53:29.419Z escuchando en el puerto 3000
 info: 2020-06-09T23:53:40.467Z escuchando en el puerto 3000
 info: 2020-06-09T23:54:26.957Z escuchando en el puerto 3000
+info: 2020-06-09T23:54:33.238Z escuchando en el puerto 3000
+info: 2020-06-10T02:55:29.732Z escuchando en el puerto 3000
+info: 2020-06-10T15:33:52.693Z escuchando en el puerto 3000
+info: 2020-06-10T17:29:36.720Z ::1 - GET /productos HTTP/1.1 200 116 - 55.914 ms
+info: 2020-06-10T17:30:17.025Z ::1 - POST /usuarios HTTP/1.1 201 27 - 313.962 ms
+info: 2020-06-10T17:30:25.008Z ::1 - POST /usuarios HTTP/1.1 201 27 - 199.413 ms
+info: 2020-06-10T17:30:31.306Z ::1 - GET /usuarios HTTP/1.1 200 337 - 0.527 ms
+info: 2020-06-10T17:30:50.188Z Usuario daniel completó autenticación exitosamente
+info: 2020-06-10T17:30:50.189Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 280.374 ms
+info: 2020-06-10T17:33:01.058Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:34:03.912Z escuchando en el puerto 3000
+info: 2020-06-10T17:34:10.228Z JWT token no es válido. Usuario con id  a7c7f69d-d9b0-4c63-b3bc-de47d3c4dc3b no  existe
+info: 2020-06-10T17:34:10.240Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 401 - - 4.526 ms
+info: 2020-06-10T17:34:16.854Z ::1 - GET /usuarios HTTP/1.1 200 2 - 1.311 ms
+info: 2020-06-10T17:34:29.408Z ::1 - POST /usuarios HTTP/1.1 201 27 - 216.093 ms
+info: 2020-06-10T17:34:38.138Z ::1 - POST /usuarios HTTP/1.1 201 27 - 206.477 ms
+info: 2020-06-10T17:34:43.861Z Usuario daniel completó autenticación exitosamente
+info: 2020-06-10T17:34:43.862Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 204.322 ms
+info: 2020-06-10T17:35:12.100Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:35:12.220Z Producto con [5edfbcb1c265da3ab826913c] reemplazado con nuevo producto  {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5edfbcb1c265da3ab826913c","wasPopulated":false,"activePaths":{"paths":{"dueño":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"dueño":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5edfbcb1c265da3ab826913c","titulo":"Iphone 6 ","precio":1000,"moneda":"CAD","dueño":"daniel","__v":0},"$init":true}
+info: 2020-06-10T17:35:12.223Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 200 110 - 87.806 ms
+info: 2020-06-10T17:35:16.113Z ::1 - GET /productos HTTP/1.1 200 112 - 3.861 ms
+info: 2020-06-10T17:35:48.009Z Usuario daniel suministró un token válido. Auntenticación completada
+error: 2020-06-10T17:35:48.023Z Excepción ocurrió  al procesar la modificación del producto con [5edfbcb1c265da3ab826913c7]Cast to ObjectId failed for value "5edfbcb1c265da3ab826913c7" at path "_id" for model "producto" {"stringValue":"\"5edfbcb1c265da3ab826913c7\"","kind":"ObjectId","value":"5edfbcb1c265da3ab826913c7","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"5edfbcb1c265da3ab826913c7\" at path \"_id\" for model \"producto\"\n    at model.Query.exec (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\mongoose\\lib\\query.js:4351:21)\n    at model.Query.Query.then (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\mongoose\\lib\\query.js:4443:15)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"}
+info: 2020-06-10T17:35:48.025Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c7 HTTP/1.1 500 70 - 16.027 ms
+error: 2020-06-10T17:37:09.351Z uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+C:\Diseño-de-APIS-Con-NodeJs\node_modules\express\lib\router\route.js:1
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Diseño-de-APIS-Con-NodeJs\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as put] (C:\Diseño-de-APIS-Con-NodeJs\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\productos\productos.routes.js:80:17)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js:1\nError: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as put] (C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js:510:19)\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js:80:17)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Wed Jun 10 2020 12:37:09 GMT-0500 (GMT-05:00)","process":{"pid":18744,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99098624,"heapTotal":69365760,"heapUsed":40387272,"external":24680675}},"os":{"loadavg":[0,0,0],"uptime":536130},"trace":[{"column":15,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":202,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":510,"method":"<computed> [as put]","native":false},{"column":17,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\productos\\productos.routes.js","function":null,"line":80,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-10T17:37:12.891Z escuchando en el puerto 3000
+info: 2020-06-10T17:37:23.381Z ::1 - GET /usuarios HTTP/1.1 200 2 - 3.440 ms
+info: 2020-06-10T17:37:30.507Z ::1 - POST /usuarios HTTP/1.1 201 27 - 220.209 ms
+info: 2020-06-10T17:37:37.473Z ::1 - POST /usuarios HTTP/1.1 201 27 - 195.844 ms
+info: 2020-06-10T17:37:43.050Z Usuario daniel completó autenticación exitosamente
+info: 2020-06-10T17:37:43.051Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 209.723 ms
+info: 2020-06-10T17:38:04.209Z ::1 - GET /productos HTTP/1.1 200 112 - 14.051 ms
+info: 2020-06-10T17:38:05.339Z ::1 - GET /productos HTTP/1.1 200 112 - 2.587 ms
+info: 2020-06-10T17:38:21.498Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:38:21.519Z Producto con [5edfbcb1c265da3ab826913c] reemplazado con nuevo producto  {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5edfbcb1c265da3ab826913c","wasPopulated":false,"activePaths":{"paths":{"dueño":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"dueño":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5edfbcb1c265da3ab826913c","titulo":"Iphone 8 ","precio":1000,"moneda":"CAD","dueño":"daniel","__v":0},"$init":true}
+info: 2020-06-10T17:38:21.520Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 200 110 - 21.212 ms
+info: 2020-06-10T17:38:25.838Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:38:25.839Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c7 HTTP/1.1 400 70 - 1.288 ms
+info: 2020-06-10T17:40:24.412Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:40:24.431Z Producto con [5edfbcb1c265da3ab826913c] reemplazado con nuevo producto  {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5edfbcb1c265da3ab826913c","wasPopulated":false,"activePaths":{"paths":{"dueño":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"dueño":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5edfbcb1c265da3ab826913c","titulo":"Iphone 8 ","precio":1000,"moneda":"CAD","dueño":"daniel","__v":0},"$init":true}
+info: 2020-06-10T17:40:24.433Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 200 110 - 4.689 ms
+info: 2020-06-10T17:40:32.154Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:40:32.168Z ::1 - PUT /productos/5edfbcb1c265da3ab826913a HTTP/1.1 400 55 - 2.500 ms
+info: 2020-06-10T17:40:38.172Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:40:38.190Z Producto con [5edfbcb1c265da3ab826913c] reemplazado con nuevo producto  {"$__":{"strictMode":true,"selected":{},"getters":{},"_id":"5edfbcb1c265da3ab826913c","wasPopulated":false,"activePaths":{"paths":{"dueño":"init","moneda":"init","precio":"init","titulo":"init","_id":"init","__v":"init"},"states":{"ignore":{},"default":{},"init":{"_id":true,"titulo":true,"precio":true,"moneda":true,"dueño":true,"__v":true},"modify":{},"require":{}},"stateNames":["require","modify","init","default","ignore"]},"pathsToScopes":{},"cachedRequired":{},"$setCalled":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"$options":{"skipId":true,"isNew":false,"willInit":true}},"isNew":false,"$locals":{},"$op":null,"_doc":{"_id":"5edfbcb1c265da3ab826913c","titulo":"Iphone 8 ","precio":1000,"moneda":"CAD","dueño":"daniel","__v":0},"$init":true}
+info: 2020-06-10T17:40:38.203Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 200 110 - 6.227 ms
+info: 2020-06-10T17:40:41.838Z ::1 - GET /productos HTTP/1.1 200 112 - 1.907 ms
+info: 2020-06-10T17:41:14.104Z Usuario daniel suministró un token válido. Auntenticación completada
+warn: 2020-06-10T17:41:14.114Z El siguiente producto no pasó la validación:  {"titulo":"Iphone 8 "}
+info: 2020-06-10T17:41:14.118Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 400 112 - 10.664 ms
+info: 2020-06-10T17:41:36.911Z Usuario daniel suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:41:36.912Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c7 HTTP/1.1 400 70 - 1.263 ms
+info: 2020-06-10T17:42:24.251Z ::1 - POST /usuarios/login HTTP/1.1 400 94 - 0.414 ms
+info: 2020-06-10T17:42:36.802Z ::1 - GET /usuarios HTTP/1.1 200 337 - 0.175 ms
+info: 2020-06-10T17:43:31.022Z Usuario daniele completó autenticación exitosamente
+info: 2020-06-10T17:43:31.023Z ::1 - POST /usuarios/login HTTP/1.1 200 199 - 203.901 ms
+info: 2020-06-10T17:45:21.018Z Usuario daniele suministró un token válido. Auntenticación completada
+info: 2020-06-10T17:45:21.020Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c7 HTTP/1.1 400 70 - 1.383 ms
+info: 2020-06-10T17:45:25.880Z Usuario daniele suministró un token válido. Auntenticación completada
+warn: 2020-06-10T17:45:25.891Z Usuario daniele  no es dueño de producto con id 5edfbcb1c265da3ab826913c.
+        Dueño real es daniel.Request no será procesado
+info: 2020-06-10T17:45:25.893Z ::1 - PUT /productos/5edfbcb1c265da3ab826913c HTTP/1.1 401 109 - 11.933 ms
+info: 2020-06-10T17:46:52.286Z ::1 - GET /productos HTTP/1.1 200 112 - 2.477 ms
+info: 2020-06-10T17:47:45.723Z escuchando en el puerto 3000
+info: 2020-06-10T17:47:58.524Z escuchando en el puerto 3000
+info: 2020-06-10T17:48:09.479Z escuchando en el puerto 3000
+info: 2020-06-10T17:48:29.022Z escuchando en el puerto 3000
+info: 2020-06-10T17:50:08.313Z escuchando en el puerto 3000
+info: 2020-06-10T17:53:07.841Z escuchando en el puerto 3000
+info: 2020-06-10T17:53:13.280Z escuchando en el puerto 3000
+info: 2020-06-10T17:54:17.156Z escuchando en el puerto 3000
+info: 2020-06-10T17:59:28.447Z escuchando en el puerto 3000
+info: 2020-06-10T18:00:36.337Z escuchando en el puerto 3000
