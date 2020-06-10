@@ -1,6 +1,8 @@
 const express = require('express');
 const _ = require('underscore');
-const { v4: uuidv4 } = require('uuid');
+const {
+  v4: uuidv4
+} = require('uuid');
 const bcrypt = require('bcrypt-nodejs');
 const jwt = require('jsonwebtoken')
 
@@ -9,6 +11,7 @@ const validarUsuario = require('./usuarios.validate').validarUsuario
 const validarPedidoDeLogin = require('./usuarios.validate').validarPedidoDeLogin
 const usuarios = require('./../../../database').usuarios
 const config = require('../../../config')
+const usuarioController = require('./usuarios.controller')
 
 const usuariosRouter = express.Router()
 
@@ -17,7 +20,14 @@ const salt = bcrypt.genSaltSync(10);
 // GET /usuarios/
 // ruta basica
 usuariosRouter.get('/', (req, res) => {
-  res.json(usuarios)
+  usuarioController.obtenerUsuarios()
+    .then((usuarios) => {
+      res.json(usuarios)
+    })
+    .catch(err=>{
+      log.error('Error al obtener todos los usuarios', err)
+      res.sendStatus(500)
+    })
 })
 
 
@@ -67,9 +77,15 @@ usuariosRouter.post('/login', validarPedidoDeLogin, (req, res) => {
   bcrypt.compare(usuarioNoAutenticado.password, hashedPassword, (err, iguales) => {
     if (iguales) {
       // generar y enviar token
-      let token = jwt.sign({ id: usuarios[index].id }, config.jwt.secreto, { expiresIn: config.jwt.tiempoDeExpiración })
+      let token = jwt.sign({
+        id: usuarios[index].id
+      }, config.jwt.secreto, {
+        expiresIn: config.jwt.tiempoDeExpiración
+      })
       log.info(`Usuario ${usuarioNoAutenticado.username} completó autenticación exitosamente`)
-      res.status(200).json({ token })
+      res.status(200).json({
+        token
+      })
 
     } else {
       log.info(`Usuario ${usuarioNoAutenticado.username} no completó autenticación. Contraseña incorrecta`)
