@@ -6275,3 +6275,172 @@ info: 2020-06-11T17:13:44.284Z escuchando en el puerto 3000
 info: 2020-06-11T17:13:49.837Z escuchando en el puerto 3000
 info: 2020-06-11T17:13:53.438Z escuchando en el puerto 3000
 info: 2020-06-11T17:13:59.414Z escuchando en el puerto 3000
+info: 2020-06-11T17:14:05.002Z escuchando en el puerto 3000
+info: 2020-06-11T17:14:09.106Z Usuario daniele completó autenticación exitosamente
+info: 2020-06-11T17:14:09.115Z ::1 - POST /usuarios/login HTTP/1.1 200 183 - 238.299 ms
+info: 2020-06-11T17:26:42.028Z Usuario daniele no completó autenticación. Contraseña incorrecta
+info: 2020-06-11T17:26:42.052Z ::1 - POST /usuarios/login HTTP/1.1 400 81 - 454.470 ms
+info: 2020-06-11T17:26:48.861Z Usuario daniele completó autenticación exitosamente
+info: 2020-06-11T17:26:48.864Z ::1 - POST /usuarios/login HTTP/1.1 200 183 - 459.284 ms
+error: 2020-06-11T18:20:04.896Z uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:8:27)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:8:27)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:20:04 GMT-0500 (GMT-05:00)","process":{"pid":4200,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100544512,"heapTotal":70197248,"heapUsed":47378592,"external":25168280}},"os":{"loadavg":[0,0,0],"uptime":625109},"trace":[{"column":27,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:20:06.688Z uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:8:27)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:8:27)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:20:06 GMT-0500 (GMT-05:00)","process":{"pid":12052,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100806656,"heapTotal":70459392,"heapUsed":46583456,"external":25055830}},"os":{"loadavg":[0,0,0],"uptime":625111},"trace":[{"column":27,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:20:09.949Z uncaughtException: Cannot find module '/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:8:27)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:8:27)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:20:09 GMT-0500 (GMT-05:00)","process":{"pid":7292,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100913152,"heapTotal":70197248,"heapUsed":47258688,"external":25160088}},"os":{"loadavg":[0,0,0],"uptime":625114},"trace":[{"column":27,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:20:11.948Z uncaughtException: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module './'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:8:27)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module './'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:8:27)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:20:11 GMT-0500 (GMT-05:00)","process":{"pid":6256,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101236736,"heapTotal":70676480,"heapUsed":47899288,"external":25176900}},"os":{"loadavg":[0,0,0],"uptime":625116},"trace":[{"column":27,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:20:15.023Z uncaughtException: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:8:27)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:8:27)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:20:14 GMT-0500 (GMT-05:00)","process":{"pid":10896,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100196352,"heapTotal":70230016,"heapUsed":48103480,"external":25176472}},"os":{"loadavg":[0,0,0],"uptime":625120},"trace":[{"column":27,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:20:17.722Z uncaughtException: Cannot find module '../recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:1
+Error: Cannot find module '../recursos/'
+Require stack:
+- C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js
+- C:\Diseño-de-APIS-Con-NodeJs\index.js
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:8:27)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"]},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:1\nError: Cannot find module '../recursos/'\nRequire stack:\n- C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js\n- C:\\Diseño-de-APIS-Con-NodeJs\\index.js\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:8:27)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:20:17 GMT-0500 (GMT-05:00)","process":{"pid":12700,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100212736,"heapTotal":70230016,"heapUsed":47847448,"external":25176480}},"os":{"loadavg":[0,0,0],"uptime":625122},"trace":[{"column":27,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js","function":null,"line":8,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T18:20:21.169Z escuchando en el puerto 3000
+info: 2020-06-11T18:20:42.965Z escuchando en el puerto 3000
+info: 2020-06-11T18:20:45.957Z escuchando en el puerto 3000
+info: 2020-06-11T18:20:50.419Z escuchando en el puerto 3000
+info: 2020-06-11T18:21:18.956Z escuchando en el puerto 3000
+error: 2020-06-11T18:21:21.748Z uncaughtException: Unexpected token '}'
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:20
+   usuarioController.obtenerUsuario({id:})
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:20\n   usuarioController.obtenerUsuario({id:})\r\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:21:21 GMT-0500 (GMT-05:00)","process":{"pid":21488,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100610048,"heapTotal":70414336,"heapUsed":47024728,"external":25149134}},"os":{"loadavg":[0,0,0],"uptime":625186},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T18:21:24.724Z escuchando en el puerto 3000
+info: 2020-06-11T18:21:27.729Z escuchando en el puerto 3000
+info: 2020-06-11T18:21:45.244Z escuchando en el puerto 3000
+info: 2020-06-11T18:21:57.464Z escuchando en el puerto 3000
+info: 2020-06-11T18:22:01.336Z escuchando en el puerto 3000
+error: 2020-06-11T18:22:37.895Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:22
+    if(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:22\n    if(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:22:37 GMT-0500 (GMT-05:00)","process":{"pid":16756,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100118528,"heapTotal":70197248,"heapUsed":46212360,"external":25132322}},"os":{"loadavg":[0,0,0],"uptime":625262},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T18:22:41.463Z escuchando en el puerto 3000
+info: 2020-06-11T18:22:43.204Z escuchando en el puerto 3000
+info: 2020-06-11T18:22:45.457Z escuchando en el puerto 3000
+info: 2020-06-11T18:22:51.032Z escuchando en el puerto 3000
+info: 2020-06-11T18:23:28.853Z escuchando en el puerto 3000
+info: 2020-06-11T18:23:46.952Z escuchando en el puerto 3000
+info: 2020-06-11T18:24:12.109Z escuchando en el puerto 3000
+error: 2020-06-11T18:24:58.459Z uncaughtException: missing ) after argument list
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:28
+    next (null {})
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:28\n    next (null {})\r\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:24:58 GMT-0500 (GMT-05:00)","process":{"pid":11448,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100560896,"heapTotal":70152192,"heapUsed":47080696,"external":25148706}},"os":{"loadavg":[0,0,0],"uptime":625403},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T18:25:05.398Z escuchando en el puerto 3000
+error: 2020-06-11T18:25:14.950Z uncaughtException: Unexpected token ':'
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:30
+        id:
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:30\n        id:\r\n\nSyntaxError: Unexpected token ':'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:25:14 GMT-0500 (GMT-05:00)","process":{"pid":21876,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101924864,"heapTotal":70197248,"heapUsed":46368904,"external":25134546}},"os":{"loadavg":[0,0,0],"uptime":625420},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:25:17.890Z uncaughtException: Unexpected identifier
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:30
+        id:
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:30\n        id:\r\n\nSyntaxError: Unexpected identifier\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:25:17 GMT-0500 (GMT-05:00)","process":{"pid":12948,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":102240256,"heapTotal":70414336,"heapUsed":46512096,"external":25134546}},"os":{"loadavg":[0,0,0],"uptime":625422},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T18:25:21.832Z uncaughtException: Unexpected token '}'
+C:\Diseño-de-APIS-Con-NodeJs\api\libs\auth.js:31
+    })
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\libs\\auth.js:31\n    })\r\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 13:25:21 GMT-0500 (GMT-05:00)","process":{"pid":984,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101703680,"heapTotal":70230016,"heapUsed":47089488,"external":25159550}},"os":{"loadavg":[0,0,0],"uptime":625426},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T18:25:25.493Z escuchando en el puerto 3000
+info: 2020-06-11T18:25:43.853Z escuchando en el puerto 3000
+info: 2020-06-11T18:26:23.036Z escuchando en el puerto 3000
+info: 2020-06-11T18:26:38.298Z escuchando en el puerto 3000
+info: 2020-06-11T18:26:41.302Z escuchando en el puerto 3000
+info: 2020-06-11T18:27:15.829Z escuchando en el puerto 3000
+info: 2020-06-11T18:27:23.164Z escuchando en el puerto 3000
+info: 2020-06-11T18:27:55.551Z escuchando en el puerto 3000
+info: 2020-06-11T18:27:58.883Z escuchando en el puerto 3000
+info: 2020-06-11T18:28:37.978Z escuchando en el puerto 3000
+info: 2020-06-11T18:28:41.015Z escuchando en el puerto 3000
+info: 2020-06-11T18:28:43.777Z escuchando en el puerto 3000
+info: 2020-06-11T18:28:46.880Z escuchando en el puerto 3000
+info: 2020-06-11T18:28:51.272Z escuchando en el puerto 3000
+info: 2020-06-11T18:29:10.385Z escuchando en el puerto 3000
+info: 2020-06-11T18:29:16.529Z escuchando en el puerto 3000
+info: 2020-06-11T18:29:21.826Z escuchando en el puerto 3000
+info: 2020-06-11T18:29:31.417Z escuchando en el puerto 3000
+info: 2020-06-11T18:29:41.482Z escuchando en el puerto 3000
+info: 2020-06-11T18:30:15.726Z escuchando en el puerto 3000
+info: 2020-06-11T18:30:21.523Z escuchando en el puerto 3000
+info: 2020-06-11T18:30:30.878Z escuchando en el puerto 3000
+info: 2020-06-11T18:30:34.104Z escuchando en el puerto 3000
+info: 2020-06-11T18:31:00.322Z escuchando en el puerto 3000
