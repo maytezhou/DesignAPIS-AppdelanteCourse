@@ -84,50 +84,59 @@ usuariosRouter.post('/', [validarUsuario, transformarBodyALowerCase], (req, res)
 
 
 // ruta para login 
-usuariosRouter.post('/login', [validarUsuario, transformarBodyALowerCase], async (req, res) => {
+usuariosRouter.post('/login', [validarPedidoDeLogin, transformarBodyALowerCase], async (req, res) => {
   let usuarioNoAutenticado = req.body
   let usuarioRegistrado
   try {
     usuarioRegistrado = await usuarioController.obtenerUsuario({
-      username:usuarioNoAutenticado.username
+      username: usuarioNoAutenticado.username
     })
-  }
-  catch(err){
-    log.error(`Error ocurrio al tratar de determinar  si el usuario [${usuarioNoAutenticado.username}] ya existe`, err)
+  } catch (err) {
+    log.error(`Error ocurrió al tratar de determinar  si el usuario [${usuarioNoAutenticado.username}] ya existe`, err)
     res.status(500).send('Error ocurrió durante el proceso de login')
     return
   }
-
-
-
-
-  let index = _.findIndex(usuarios, (usuario) => usuario.username === usuarioNoAutenticado.username)
-  if (index === -1) {
-    log.info(`Usuario ${usuarioNoAutenticado.username} no existe. No pudo ser auntenticado`)
-    res.status(400).send('Credenciales incorrectas. El usuario no existe')
+  if (!usuarioRegistrado) {
+    log.info(`Usuario [${usuarioNoAutenticado.username}] no existe.No pudo ser autenticado`)
+    res.status(400).send('Credenciales incorrectas. Asegúrate que el username y contraseña sean correctas')
     return
   }
+let contraseñaCorrecta
+  try {
+    bcrypt.compare(usuarioNoAutenticado.password, usuarioRegistrado.password, (err, iscorrect) => {
+     if(res){
+       console.log(iscorrect)
+       contraseñaCorrecta = iscorrect
+       if (contraseñaCorrecta) {
+        // generar y enviar token
+        let token = jwt.sign({
+          id: usuarioRegistrado.id
+        }, config.jwt.secreto, {
+          expiresIn: config.jwt.tiempoDeExpiración
+        })
+        log.info(`Usuario ${usuarioNoAutenticado.username} completó autenticación exitosamente`)
+        res.status(200).json({
+          token
+        })
+    
+      } else {
+        log.info(`Usuario ${usuarioNoAutenticado.username} no completó autenticación. Contraseña incorrecta`)
+        res.status(400).send('Credenciales incorrectas. Asegúrate que el username y contraseña sean correctos')
+    
+      }
+     }
+     
+    })
 
-  let hashedPassword = usuarios[index].password
-  bcrypt.compare(usuarioNoAutenticado.password, hashedPassword, (err, iguales) => {
-    if (iguales) {
-      // generar y enviar token
-      let token = jwt.sign({
-        id: usuarios[index].id
-      }, config.jwt.secreto, {
-        expiresIn: config.jwt.tiempoDeExpiración
-      })
-      log.info(`Usuario ${usuarioNoAutenticado.username} completó autenticación exitosamente`)
-      res.status(200).json({
-        token
-      })
 
-    } else {
-      log.info(`Usuario ${usuarioNoAutenticado.username} no completó autenticación. Contraseña incorrecta`)
-      res.status(400).send('Credenciales incorrectas. Asegúrate que el username y contraseña sean correctos')
+  } catch (err) {
+    log.error(`Error ocurrió al tratar de verificar si la contraseña es correcta`, err)
+    res.status(500).send('Error ocurrió durante el proceso de login')
+    return
+  }
+ 
 
-    }
-  })
+
 })
 
 module.exports = usuariosRouter

@@ -20,17 +20,16 @@ return new Promise((resolve,reject)=>{
         reject(err)
     })
 })
+}
 
- function obtenerUsuario ({
+function obtenerUsuario ({
     username: username,
     id:id
 }) {
-   if (username) return Usuario.findOne({ username : username})
-   if (id) return Usuario.findById(id)
+   if (username) return Usuario.findOne({ username : username}) // retorna una promesa que esta buscando mediante el usarname
+   if (id) return Usuario.findById(id) // retorna una promesa que busca al usuario por id
    throw new Error ("Función obtener usuario del controller fue llamada sin especificar username o id")
  }
-
-}
 module.exports ={
     obtenerUsuarios,
     crearUsuario,

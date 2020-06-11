@@ -5945,3 +5945,333 @@ ReferenceError: obtenerUsuario is not defined
     at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:38:5)
     at Generator.next (<anonymous>)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:38:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Wed Jun 10 2020 16:13:44 GMT-0500 (GMT-05:00)","process":{"pid":17204,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101822464,"heapTotal":69890048,"heapUsed":46788288,"external":25075491}},"os":{"loadavg":[0,0,0],"uptime":549126},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":38,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:14:55.860Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:38:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:38:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:14:55 GMT-0500 (GMT-05:00)","process":{"pid":15504,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101179392,"heapTotal":69967872,"heapUsed":46747208,"external":25075491}},"os":{"loadavg":[0,0,0],"uptime":617600},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":38,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:15:51.672Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:38:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:38:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:15:51 GMT-0500 (GMT-05:00)","process":{"pid":23384,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100646912,"heapTotal":70152192,"heapUsed":46552272,"external":25067300}},"os":{"loadavg":[0,0,0],"uptime":617656},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":38,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:17:12.829Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:38:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:38:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:17:12 GMT-0500 (GMT-05:00)","process":{"pid":22436,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101679104,"heapTotal":69967872,"heapUsed":46872832,"external":25077756}},"os":{"loadavg":[0,0,0],"uptime":617737},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":38,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:17:49.007Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:35:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:35:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:17:48 GMT-0500 (GMT-05:00)","process":{"pid":12904,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101990400,"heapTotal":70197248,"heapUsed":45448272,"external":24958354}},"os":{"loadavg":[0,0,0],"uptime":617774},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":35,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:18:03.552Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:38:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:38:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:18:03 GMT-0500 (GMT-05:00)","process":{"pid":18952,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101588992,"heapTotal":70197248,"heapUsed":45790496,"external":25038626}},"os":{"loadavg":[0,0,0],"uptime":617788},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":38,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:18:05.466Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:38:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:38:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:18:05 GMT-0500 (GMT-05:00)","process":{"pid":23540,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":101642240,"heapTotal":70197248,"heapUsed":46139336,"external":25063852}},"os":{"loadavg":[0,0,0],"uptime":617790},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":38,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:18:13.634Z uncaughtException: obtenerUsuario is not defined
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:1
+ReferenceError: obtenerUsuario is not defined
+    at Object.<anonymous> (C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.controller.js:28:5)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:1\nReferenceError: obtenerUsuario is not defined\n    at Object.<anonymous> (C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js:28:5)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:18:13 GMT-0500 (GMT-05:00)","process":{"pid":10132,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":102133760,"heapTotal":70152192,"heapUsed":46456784,"external":25073252}},"os":{"loadavg":[0,0,0],"uptime":617798},"trace":[{"column":5,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.controller.js","function":null,"line":28,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T16:18:17.429Z escuchando en el puerto 3000
+info: 2020-06-11T16:19:01.510Z escuchando en el puerto 3000
+info: 2020-06-11T16:19:30.919Z escuchando en el puerto 3000
+error: 2020-06-11T16:23:03.932Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:100
+ if(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:100\n if(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:23:03 GMT-0500 (GMT-05:00)","process":{"pid":22804,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99364864,"heapTotal":69627904,"heapUsed":40648400,"external":24719651}},"os":{"loadavg":[0,0,0],"uptime":618088},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T16:23:09.471Z escuchando en el puerto 3000
+info: 2020-06-11T16:23:13.382Z escuchando en el puerto 3000
+info: 2020-06-11T16:23:19.317Z escuchando en el puerto 3000
+info: 2020-06-11T16:23:34.772Z escuchando en el puerto 3000
+info: 2020-06-11T16:23:46.598Z escuchando en el puerto 3000
+info: 2020-06-11T16:23:56.258Z escuchando en el puerto 3000
+info: 2020-06-11T16:24:08.291Z escuchando en el puerto 3000
+info: 2020-06-11T16:24:11.793Z escuchando en el puerto 3000
+error: 2020-06-11T16:24:22.329Z uncaughtException: Unexpected token '}'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:104
+ }
+
+SyntaxError: Unexpected token '}'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:104\n }\r\n\nSyntaxError: Unexpected token '}'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:24:22 GMT-0500 (GMT-05:00)","process":{"pid":22720,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98902016,"heapTotal":69410816,"heapUsed":39990280,"external":24694683}},"os":{"loadavg":[0,0,0],"uptime":618167},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T16:24:26.816Z escuchando en el puerto 3000
+info: 2020-06-11T16:24:35.321Z escuchando en el puerto 3000
+info: 2020-06-11T16:24:51.894Z escuchando en el puerto 3000
+info: 2020-06-11T16:25:22.444Z escuchando en el puerto 3000
+info: 2020-06-11T16:25:39.652Z escuchando en el puerto 3000
+info: 2020-06-11T16:25:42.036Z escuchando en el puerto 3000
+info: 2020-06-11T16:27:36.860Z escuchando en el puerto 3000
+error: 2020-06-11T16:27:42.902Z uncaughtException: Missing catch or finally after try
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:108
+ }
+
+SyntaxError: Missing catch or finally after try
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:108\n }\r\n\nSyntaxError: Missing catch or finally after try\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:27:42 GMT-0500 (GMT-05:00)","process":{"pid":15000,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99471360,"heapTotal":69410816,"heapUsed":40498272,"external":24720619}},"os":{"loadavg":[0,0,0],"uptime":618367},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:27:49.375Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:27:49 GMT-0500 (GMT-05:00)","process":{"pid":13856,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98762752,"heapTotal":69410816,"heapUsed":39757888,"external":24615957}},"os":{"loadavg":[0,0,0],"uptime":618374},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:27:58.195Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:27:58 GMT-0500 (GMT-05:00)","process":{"pid":14496,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99504128,"heapTotal":69890048,"heapUsed":40815120,"external":24728871}},"os":{"loadavg":[0,0,0],"uptime":618383},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:28:04.397Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:28:04 GMT-0500 (GMT-05:00)","process":{"pid":23180,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99725312,"heapTotal":69627904,"heapUsed":41197032,"external":24737099}},"os":{"loadavg":[0,0,0],"uptime":618389},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:28:15.802Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:28:15 GMT-0500 (GMT-05:00)","process":{"pid":5652,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99237888,"heapTotal":69410816,"heapUsed":40048056,"external":24703267}},"os":{"loadavg":[0,0,0],"uptime":618400},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:28:19.448Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:28:19 GMT-0500 (GMT-05:00)","process":{"pid":7152,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":100372480,"heapTotal":69365760,"heapUsed":41008016,"external":24728965}},"os":{"loadavg":[0,0,0],"uptime":618404},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:28:21.382Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:28:21 GMT-0500 (GMT-05:00)","process":{"pid":22072,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99258368,"heapTotal":69672960,"heapUsed":40454912,"external":24711933}},"os":{"loadavg":[0,0,0],"uptime":618406},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:28:26.025Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:28:25 GMT-0500 (GMT-05:00)","process":{"pid":19700,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98791424,"heapTotal":69627904,"heapUsed":40664648,"external":24720357}},"os":{"loadavg":[0,0,0],"uptime":618411},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T16:28:29.498Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:109
+catch(){
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:109\ncatch(){\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 11:28:29 GMT-0500 (GMT-05:00)","process":{"pid":21784,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99115008,"heapTotal":68919296,"heapUsed":41141632,"external":24728593}},"os":{"loadavg":[0,0,0],"uptime":618414},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T16:28:38.732Z escuchando en el puerto 3000
+info: 2020-06-11T16:29:11.191Z escuchando en el puerto 3000
+info: 2020-06-11T16:29:19.542Z escuchando en el puerto 3000
+info: 2020-06-11T16:29:37.969Z escuchando en el puerto 3000
+info: 2020-06-11T16:30:14.500Z escuchando en el puerto 3000
+info: 2020-06-11T16:30:33.179Z escuchando en el puerto 3000
+info: 2020-06-11T16:30:47.081Z escuchando en el puerto 3000
+info: 2020-06-11T16:31:17.510Z escuchando en el puerto 3000
+info: 2020-06-11T16:31:20.488Z escuchando en el puerto 3000
+info: 2020-06-11T16:31:27.189Z escuchando en el puerto 3000
+info: 2020-06-11T16:32:00.105Z escuchando en el puerto 3000
+info: 2020-06-11T16:32:06.928Z escuchando en el puerto 3000
+info: 2020-06-11T16:32:16.314Z escuchando en el puerto 3000
+info: 2020-06-11T16:32:19.949Z escuchando en el puerto 3000
+info: 2020-06-11T16:32:31.130Z escuchando en el puerto 3000
+info: 2020-06-11T16:33:02.200Z escuchando en el puerto 3000
+info: 2020-06-11T16:33:06.539Z escuchando en el puerto 3000
+info: 2020-06-11T16:33:12.777Z escuchando en el puerto 3000
+info: 2020-06-11T16:34:46.260Z ::1 - GET /usuarios HTTP/1.1 200 858 - 99.524 ms
+info: 2020-06-11T16:50:39.220Z Usuario fallo la validación {"0":"\"email\" is required"}
+info: 2020-06-11T16:50:39.226Z ::1 - POST /usuarios/login HTTP/1.1 400 218 - 37.327 ms
+info: 2020-06-11T16:52:05.127Z Usuario fallo la validación {"0":"\"email\" is required"}
+info: 2020-06-11T16:52:05.129Z ::1 - POST /usuarios/login HTTP/1.1 400 218 - 3.254 ms
+info: 2020-06-11T16:55:22.736Z escuchando en el puerto 3000
+error: 2020-06-11T16:55:57.049Z Error ocurrió al tratar de verificar si la contraseña es correcta
+info: 2020-06-11T16:55:57.088Z ::1 - POST /usuarios/login HTTP/1.1 500 42 - 136.314 ms
+info: 2020-06-11T16:56:33.142Z escuchando en el puerto 3000
+info: 2020-06-11T16:56:54.164Z ::1 - GET /usuarios HTTP/1.1 200 858 - 33.743 ms
+error: 2020-06-11T16:56:59.847Z Error ocurrió al tratar de verificar si la contraseña es correcta
+info: 2020-06-11T16:56:59.883Z ::1 - POST /usuarios/login HTTP/1.1 500 42 - 67.494 ms
+info: 2020-06-11T16:58:40.138Z escuchando en el puerto 3000
+info: 2020-06-11T16:58:46.582Z escuchando en el puerto 3000
+info: 2020-06-11T16:58:52.421Z escuchando en el puerto 3000
+info: 2020-06-11T16:59:35.238Z escuchando en el puerto 3000
+info: 2020-06-11T16:59:37.864Z escuchando en el puerto 3000
+info: 2020-06-11T16:59:40.937Z escuchando en el puerto 3000
+info: 2020-06-11T16:59:43.199Z escuchando en el puerto 3000
+info: 2020-06-11T17:00:07.975Z escuchando en el puerto 3000
+info: 2020-06-11T17:00:10.279Z escuchando en el puerto 3000
+info: 2020-06-11T17:00:16.801Z escuchando en el puerto 3000
+info: 2020-06-11T17:00:25.379Z escuchando en el puerto 3000
+info: 2020-06-11T17:00:43.877Z escuchando en el puerto 3000
+info: 2020-06-11T17:00:53.929Z escuchando en el puerto 3000
+error: 2020-06-11T17:00:57.170Z uncaughtException: Unexpected token '{'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:128
+    .catch(){
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:128\n    .catch(){\r\n\nSyntaxError: Unexpected token '{'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:00:57 GMT-0500 (GMT-05:00)","process":{"pid":18732,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99123200,"heapTotal":69410816,"heapUsed":39662280,"external":24607699}},"os":{"loadavg":[0,0,0],"uptime":620362},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:00:59.964Z uncaughtException: Unexpected token '{'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:128
+    .catch(err){
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:128\n    .catch(err){\r\n\nSyntaxError: Unexpected token '{'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:00:59 GMT-0500 (GMT-05:00)","process":{"pid":23168,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99930112,"heapTotal":70152192,"heapUsed":41417040,"external":24736955}},"os":{"loadavg":[0,0,0],"uptime":620364},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:01:04.806Z uncaughtException: Unexpected token '{'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:128
+    .catch(err){
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:128\n    .catch(err){\r\n\nSyntaxError: Unexpected token '{'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:01:04 GMT-0500 (GMT-05:00)","process":{"pid":11288,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99192832,"heapTotal":69365760,"heapUsed":40687832,"external":24720473}},"os":{"loadavg":[0,0,0],"uptime":620369},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:01:30.420Z uncaughtException: Unexpected token '{'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:128
+    .catch(err){
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:128\n    .catch(err){\r\n\nSyntaxError: Unexpected token '{'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:01:30 GMT-0500 (GMT-05:00)","process":{"pid":260,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99246080,"heapTotal":69181440,"heapUsed":41222696,"external":24728335}},"os":{"loadavg":[0,0,0],"uptime":620395},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:01:33.537Z uncaughtException: Unexpected token '{'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:128
+    .catch(err){
+
+SyntaxError: Unexpected token '{'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:128\n    .catch(err){\r\n\nSyntaxError: Unexpected token '{'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:01:33 GMT-0500 (GMT-05:00)","process":{"pid":10580,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98607104,"heapTotal":69410816,"heapUsed":40487664,"external":24720153}},"os":{"loadavg":[0,0,0],"uptime":620398},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:01:47.047Z uncaughtException: Malformed arrow function parameter list
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:128
+    .catch(err)=>{
+
+SyntaxError: Malformed arrow function parameter list
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:128\n    .catch(err)=>{\r\n\nSyntaxError: Malformed arrow function parameter list\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:01:47 GMT-0500 (GMT-05:00)","process":{"pid":6892,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99282944,"heapTotal":69627904,"heapUsed":40529256,"external":24711965}},"os":{"loadavg":[0,0,0],"uptime":620412},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:01:54.481Z uncaughtException: missing ) after argument list
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:130
+    }
+
+SyntaxError: missing ) after argument list
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:130\n    }\r\n\nSyntaxError: missing ) after argument list\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:01:54 GMT-0500 (GMT-05:00)","process":{"pid":17328,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98729984,"heapTotal":69148672,"heapUsed":40037104,"external":24703125}},"os":{"loadavg":[0,0,0],"uptime":620419},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T17:02:27.570Z escuchando en el puerto 3000
+info: 2020-06-11T17:02:43.342Z escuchando en el puerto 3000
+info: 2020-06-11T17:02:48.752Z escuchando en el puerto 3000
+info: 2020-06-11T17:02:51.483Z escuchando en el puerto 3000
+info: 2020-06-11T17:02:56.805Z escuchando en el puerto 3000
+error: 2020-06-11T17:03:03.197Z Error ocurrió al tratar de verificar si la contraseña es correcta
+info: 2020-06-11T17:03:03.217Z ::1 - POST /usuarios/login HTTP/1.1 500 42 - 56.552 ms
+error: 2020-06-11T17:03:04.634Z Error ocurrió al tratar de verificar si la contraseña es correcta
+info: 2020-06-11T17:03:04.659Z ::1 - POST /usuarios/login HTTP/1.1 500 42 - 6.604 ms
+info: 2020-06-11T17:03:50.774Z escuchando en el puerto 3000
+error: 2020-06-11T17:03:53.590Z uncaughtException: Unexpected token ')'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:106
+    bcrypt.compare(usuarioNoAutenticado.password, usuarioRegistrado.password, ())
+
+SyntaxError: Unexpected token ')'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:106\n    bcrypt.compare(usuarioNoAutenticado.password, usuarioRegistrado.password, ())\r\n\nSyntaxError: Unexpected token ')'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:03:53 GMT-0500 (GMT-05:00)","process":{"pid":264,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99180544,"heapTotal":69410816,"heapUsed":39482152,"external":24606185}},"os":{"loadavg":[0,0,0],"uptime":620538},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T17:03:56.496Z escuchando en el puerto 3000
+info: 2020-06-11T17:04:05.757Z escuchando en el puerto 3000
+error: 2020-06-11T17:04:12.779Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:107
+      .then(
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:107\n      .then(\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:04:12 GMT-0500 (GMT-05:00)","process":{"pid":6368,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99131392,"heapTotal":69672960,"heapUsed":39614000,"external":24608235}},"os":{"loadavg":[0,0,0],"uptime":620557},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:05:49.543Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:107
+      .then(
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:107\n      .then(\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:05:49 GMT-0500 (GMT-05:00)","process":{"pid":13520,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":98713600,"heapTotal":68919296,"heapUsed":41035904,"external":24728449}},"os":{"loadavg":[0,0,0],"uptime":620654},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+error: 2020-06-11T17:05:52.804Z uncaughtException: Unexpected token '.'
+C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:107
+      .then(
+
+SyntaxError: Unexpected token '.'
+    at Object.compileFunction (vm.js:381:18)
+    at Generator.next (<anonymous>)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10) {"error":{},"stack":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:107\n      .then(\r\n\nSyntaxError: Unexpected token '.'\n    at Object.compileFunction (vm.js:381:18)\n    at Generator.next (<anonymous>)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)","exception":true,"date":"Thu Jun 11 2020 12:05:52 GMT-0500 (GMT-05:00)","process":{"pid":14876,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":99037184,"heapTotal":70197248,"heapUsed":39567056,"external":24607805}},"os":{"loadavg":[0,0,0],"uptime":620657},"trace":[{"column":18,"file":"vm.js","function":"Object.compileFunction","line":381,"method":"compileFunction","native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1153,"method":".js","native":false}]}
+info: 2020-06-11T17:05:56.893Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:01.514Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:07.099Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:11.575Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:18.080Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:34.479Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:36.256Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:38.904Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:40.595Z escuchando en el puerto 3000
+info: 2020-06-11T17:06:46.324Z Usuario daniel completó autenticación exitosamente
+error: 2020-06-11T17:06:46.427Z uncaughtException: res.status is not a function
+TypeError: res.status is not a function
+    at C:\Diseño-de-APIS-Con-NodeJs\api\recursos\usuarios\usuarios.routes.js:116:13
+    at C:\Diseño-de-APIS-Con-NodeJs\node_modules\bcrypt-nodejs\bCrypt.js:689:3
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {"error":{},"stack":"TypeError: res.status is not a function\n    at C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js:116:13\n    at C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js:689:3\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)","exception":true,"date":"Thu Jun 11 2020 12:06:46 GMT-0500 (GMT-05:00)","process":{"pid":8240,"uid":null,"gid":null,"cwd":"C:\\Diseño-de-APIS-Con-NodeJs","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.16.3","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Diseño-de-APIS-Con-NodeJs\\index.js"],"memoryUsage":{"rss":102371328,"heapTotal":71417856,"heapUsed":33759904,"external":24968176}},"os":{"loadavg":[0,0,0],"uptime":620711},"trace":[{"column":13,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\api\\recursos\\usuarios\\usuarios.routes.js","function":null,"line":116,"method":null,"native":false},{"column":3,"file":"C:\\Diseño-de-APIS-Con-NodeJs\\node_modules\\bcrypt-nodejs\\bCrypt.js","function":null,"line":689,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":79,"method":null,"native":false}]}
+info: 2020-06-11T17:07:36.069Z escuchando en el puerto 3000
+info: 2020-06-11T17:08:10.379Z escuchando en el puerto 3000
+info: 2020-06-11T17:08:18.631Z escuchando en el puerto 3000
+info: 2020-06-11T17:08:29.713Z escuchando en el puerto 3000
+info: 2020-06-11T17:08:33.670Z escuchando en el puerto 3000
+info: 2020-06-11T17:08:37.772Z escuchando en el puerto 3000
+info: 2020-06-11T17:09:04.978Z escuchando en el puerto 3000
+info: 2020-06-11T17:09:14.630Z escuchando en el puerto 3000
+info: 2020-06-11T17:09:14.949Z Usuario daniel no completó autenticación. Contraseña incorrecta
+info: 2020-06-11T17:09:15.322Z ::1 - POST /usuarios/login HTTP/1.1 400 81 - 61.216 ms
+info: 2020-06-11T17:09:38.453Z Usuario daniele no completó autenticación. Contraseña incorrecta
+info: 2020-06-11T17:09:38.926Z ::1 - POST /usuarios/login HTTP/1.1 400 81 - 6.759 ms
+info: 2020-06-11T17:09:54.698Z escuchando en el puerto 3000
+info: 2020-06-11T17:10:02.503Z Usuario daniele no completó autenticación. Contraseña incorrecta
+info: 2020-06-11T17:10:02.784Z ::1 - POST /usuarios/login HTTP/1.1 400 81 - 21.834 ms
+info: 2020-06-11T17:11:10.480Z escuchando en el puerto 3000
+info: 2020-06-11T17:11:18.484Z escuchando en el puerto 3000
+info: 2020-06-11T17:12:01.301Z Usuario daniele no completó autenticación. Contraseña incorrecta
+info: 2020-06-11T17:12:01.837Z ::1 - POST /usuarios/login HTTP/1.1 400 81 - 63.722 ms
+info: 2020-06-11T17:13:35.162Z escuchando en el puerto 3000
+info: 2020-06-11T17:13:44.284Z escuchando en el puerto 3000
+info: 2020-06-11T17:13:49.837Z escuchando en el puerto 3000
+info: 2020-06-11T17:13:53.438Z escuchando en el puerto 3000
+info: 2020-06-11T17:13:59.414Z escuchando en el puerto 3000
